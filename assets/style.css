@@ -42,3 +42,21 @@ body {
 .header-text{
     font-weight: bold;
 }
+
+  h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align:center;
+    padding: 5px ;
+    background-color: #ddbea9;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+    height: 50px;
+  }
+  
