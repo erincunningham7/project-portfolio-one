@@ -10,13 +10,13 @@
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 100px;
+    padding: 10px 90px;
     text-decoration: none;
   }
   /* Change background on mouse-over */
 .navbar a:hover {
   background: #ffe8d6;
-  color: black;
+  color: grey;
 }
 .header {
     margin-top: 60px;
@@ -52,12 +52,12 @@ body {
   }
   .row {
     display: flex;
+    background-color: #ddbea9;
   }
   
   .column {
     flex: 33.33%;
-    padding: 50px;
-    margin-bottom: 100px;
+    padding: 10px;
   }
   details {
     border-radius: 3px;
@@ -65,11 +65,14 @@ body {
     display: inline-block;
     position: relative;
     transition: 0.15s background linear;
+    background-color: #ddbea9;
+    display: flex;
+    font-weight: bolder;
   }
   
   details:hover,
   details:focus {
-    background: #d4d1ec;
+    background: #b7b7a4;
   }
   summary {
     background: url("https://assets.codepen.io/14179/Info.svg") 11px 11.5px no-repeat;
@@ -99,4 +102,22 @@ body {
     position: absolute;
     top: -10px;
     width: 0;
+  }
+  .text-column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .text-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .about {
+    background-color: #ffe8d6;
+  }
+  .granny {
+    width: 50%;
+    height: 300px;
   }
