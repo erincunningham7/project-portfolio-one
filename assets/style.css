@@ -59,3 +59,44 @@ body {
     padding: 50px;
     margin-bottom: 100px;
   }
+  details {
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.15s background linear;
+  }
+  
+  details:hover,
+  details:focus {
+    background: #d4d1ec;
+  }
+  summary {
+    background: url("https://assets.codepen.io/14179/Info.svg") 11px 11.5px no-repeat;
+    list-style: none;
+    padding: 10px;
+    padding-left: 33px;
+  }
+  details p {
+    cursor: auto;
+    background: #eee;
+    padding: 15px;
+    width: 250px;
+    position: absolute;
+    left: 0;
+    top: 35px;
+    border-radius: 4px;
+    right: 0;
+  }
+  
+  details p:before {
+    content: "";
+    border-bottom: 12px solid #eee;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    height: 0;
+    left: 10px;
+    position: absolute;
+    top: -10px;
+    width: 0;
+  }
