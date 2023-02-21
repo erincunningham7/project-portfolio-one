@@ -22,7 +22,8 @@
     margin-top: 60px;
     text-align:center;
     padding: 9em 0 10em 0 ;
-    background-color: #cb997e;
+    /*background-color: #cb997e;*/
+    background-image: url("https://cdn.pixabay.com/photo/2018/01/16/19/00/macaron-3086577_1280.jpg");
 }
 
 body {
