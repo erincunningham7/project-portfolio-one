@@ -121,3 +121,33 @@ body {
     width: 50%;
     height: 300px;
   }
+  .about p {
+    float: right;
+    width: 50%;
+    font-weight: bolder;
+    font-size: larger;
+    padding: ;
+    text-align: center;
+  }
+  .join {
+    background-color: #b7b7a4;
+  }
+  .join-us {
+    background-color: #b7b7a4;
+    float: left;
+    width: 50%;
+    font-weight: bolder;
+    font-size: large;
+    padding: ;
+    text-align: center;
+  }
+  form {
+    text-align:center;
+  }
+  .join-img {
+    width: 50%;
+    height: 458px;
+  }
+  .contact {
+    background-color: #a5a58d;
+  }
