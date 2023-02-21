@@ -15,3 +15,4 @@
 Used Slack to get my website live so I could request help from other slack users
 
 [How i created the layout of the details element](https://www.w3schools.com/howto/howto_css_three_columns.asp)
+[How I created my form](https://www.w3schools.com/html/html_forms.asp)
