@@ -1,6 +1,6 @@
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #a5a58d;
     position: fixed;
     top: 0;
     width: 100%;
@@ -39,9 +39,11 @@ body {
 	letter-spacing: 0.225em;
 	text-transform: uppercase;
 	top: 0;
+  font-size: 1.1em;
+  text-transform:uppercase;
 }
 .header-text{
-    font-weight: bold;
+    font-weight: bolder;
 }
 
   h2 {
@@ -49,11 +51,11 @@ body {
     margin-bottom: 15px;
     text-align:center;
     padding: 5px ;
-    background-color: #ddbea9;
+    background-color: #cb997e;
   }
   .row {
     display: flex;
-    background-color: #ddbea9;
+    background-color: #cb997e;
   }
   
   .column {
@@ -66,7 +68,7 @@ body {
     display: inline-block;
     position: relative;
     transition: 0.15s background linear;
-    background-color: #ddbea9;
+    background-color: #cb997e;
     display: flex;
     font-weight: bolder;
   }
@@ -116,7 +118,7 @@ body {
     clear: both;
   }
   .about {
-    background-color: #ffe8d6;
+    background-color: #ddbea9;
   }
   .granny {
     width: 50%;
@@ -127,14 +129,13 @@ body {
     width: 50%;
     font-weight: bolder;
     font-size: larger;
-    padding: ;
     text-align: center;
   }
   .join {
-    background-color: #b7b7a4;
+    background-color: #ffe8d6;
   }
   .join-us {
-    background-color: #b7b7a4;
+    background-color: #ffe8d6;
     float: left;
     width: 50%;
     font-weight: bolder;
@@ -149,6 +150,61 @@ body {
     width: 50%;
     height: 458px;
   }
-  .contact {
+  .sub {
+    background-color: #b7b7a4;
+  }
+  iframe {
+  }
+  .sub-text {
+    background-color: #b7b7a4;
+    float:right;
+    width: 50%;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+    height: 315px;
+  }
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-left: 450px;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: rgb(209, 48, 75);
+    color: white;
+  }
+  .fa-github {
+    background: rgb(33, 33, 33);
+    color: white;
+  }
+  footer {
+  overflow: hidden;
     background-color: #a5a58d;
+    width: 100%;
+  }
+  footer > a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 10px 90px;
+      text-decoration: none;
+  }
+  footer > a:hover {
+    background: #ffe8d6;
+    color: grey;
   }
