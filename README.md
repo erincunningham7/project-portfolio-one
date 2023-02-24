@@ -21,3 +21,9 @@ Used Slack to get my website live so I could request help from other slack users
 [The icon website I used](https://fontawesome.com/search?q=social%20media&o=r)
 
 [Icon style inspiration](https://www.w3schools.com/howto/howto_css_social_media_buttons.asp)
+
+[How I linked my javascript file to my html file](https://pagedart.com/blog/how-to-link-javascript-to-html/)
+
+[How I made the slideshow](https://www.w3schools.com/howto/howto_js_slideshow.asp)
+
+[How I made the text colour highlighted for the slideshow](https://www.coding-dude.com/wp/css/highlight-text-css/#:~:text=Simple%20CSS%20Highlight%20Text%20Effect%20Besides%20the%20%3Cmark%3E,the%20same%20thing%20as%20the%20HTML%20%3Cmark%3E%20tag.)

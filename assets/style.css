@@ -33,13 +33,14 @@ body {
     font-size: 1.75em;
 	margin: 0 0 0.5em 0;
     text-transform: uppercase;
+    text-decoration: underline;
 }
 .header p {
     color: inherit;
 	letter-spacing: 0.225em;
 	text-transform: uppercase;
 	top: 0;
-  font-size: 1.1em;
+  font-size: 1.14em;
   text-transform:uppercase;
 }
 .header-text{
@@ -153,8 +154,6 @@ body {
   .sub {
     background-color: #b7b7a4;
   }
-  iframe {
-  }
   .sub-text {
     background-color: #b7b7a4;
     float:right;
@@ -177,7 +176,7 @@ body {
   .fa-facebook {
     background: #3B5998;
     color: white;
-    margin-left: 450px;
+    margin-left: 480px;
   }
   .fa-twitter {
     background: #55ACEE;
@@ -208,3 +207,95 @@ body {
     background: #ffe8d6;
     color: grey;
   }
+  /* Slideshow container */
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #a5a58d;
+}
+
+/* Caption text */
+.text {
+  color: #6b705c;
+  font-size: 17px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 99%5;
+  text-align: center;
+  background-color: #ffe8d6;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #6b705c;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.story-img {
+  height: 400px;
+}
+.story {
+  background-color: #ddbea9;
+}
