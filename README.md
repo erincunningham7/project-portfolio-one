@@ -27,3 +27,7 @@ Used Slack to get my website live so I could request help from other slack users
 [How I made the slideshow](https://www.w3schools.com/howto/howto_js_slideshow.asp)
 
 [How I made the text colour highlighted for the slideshow](https://www.coding-dude.com/wp/css/highlight-text-css/#:~:text=Simple%20CSS%20Highlight%20Text%20Effect%20Besides%20the%20%3Cmark%3E,the%20same%20thing%20as%20the%20HTML%20%3Cmark%3E%20tag.)
+
+[How I created links that jumped to different parts of the page](https://www.w3docs.com/snippets/html/how-to-create-an-anchor-link-to-jump-to-a-specific-part-of-a-page.html)
+
+[How I created my img links](https://www.w3schools.com/tags/tag_img.asp)
