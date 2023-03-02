@@ -31,3 +31,5 @@ Used Slack to get my website live so I could request help from other slack users
 [How I created links that jumped to different parts of the page](https://www.w3docs.com/snippets/html/how-to-create-an-anchor-link-to-jump-to-a-specific-part-of-a-page.html)
 
 [How I created my img links](https://www.w3schools.com/tags/tag_img.asp)
+
+[Recipe inspiration for the scandinavian apple pie](http://www.godecookery.com/twotarts/twotarts.html)
