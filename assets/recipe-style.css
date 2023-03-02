@@ -10,7 +10,7 @@
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 10px 90px;
+    padding: 10px 120px;
     text-decoration: none;
   }
   /* Change background on mouse-over */
@@ -25,7 +25,12 @@
     /*background-color: #cb997e;*/
     background-image: url("https://cdn.pixabay.com/photo/2018/04/24/19/57/soup-3347872__480.jpg");
 }
-
+.header2{
+  margin-top: 60px;
+    text-align:center;
+    padding: 9em 0 10em 0 ;
+  background-image: url("https://cdn.pixabay.com/photo/2017/05/15/11/49/pie-2314617__480.jpg");
+}
 body {
     font-family: 'Goudy Old Style', 'garamond';
 }
@@ -51,6 +56,7 @@ body {
       opacity: 0.7;
       padding: 5px;
   }
+
   .fa {
     padding: 10px;
     font-size: 30px;
@@ -104,24 +110,56 @@ body {
     padding: 5px ;
     background-color: #cb997e;
     font-weight: bolder;
+    font-size: larger;
   }
   .recipe {
     background-color: #ddbea9;
   }
-  .ingredients > h4 {
+  .ingredients > h3 {
     text-align: center;
+    font-size: larger;
     font-weight: bolder;
     text-decoration: solid;
+    text-decoration-line: underline;
   }
   .ingredients {
     background-color: #ddbea9;
     display: flex;
     flex-direction: column;
     text-align: center;
+  }
+  .ingredients ul {
+    text-align:inherit;
     list-style: none;
+    font-size: large;
+    padding-right: 30px;
   }
   .instructions {
     background-color: #ddbea9;
     display: flex;
     flex-direction: column;
   }
+  .instructions > h3 {
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: solid;
+    text-decoration-line: underline;
+  }
+  .instructions ol {
+    text-align:center;
+    list-style: none;
+    font-size: large;
+    padding-bottom: 30px;
+  }
+  @media only screen and (min-width: 600px) {
+
+    .navbar > a {
+    overflow: hidden;
+    padding: 5px 35px;
+    }
+    footer > a{
+      align-content: center;
+    }
+  
+  } 

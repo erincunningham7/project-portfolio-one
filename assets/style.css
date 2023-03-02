@@ -22,7 +22,6 @@
     margin-top: 60px;
     text-align:center;
     padding: 9em 0 10em 0 ;
-    /*background-color: #cb997e;*/
     background-image: url("https://cdn.pixabay.com/photo/2018/01/16/19/00/macaron-3086577_1280.jpg");
 }
 
@@ -172,7 +171,6 @@ width: 50%;
     padding: 10px;
     font-size: 30px;
     width: 50px;
-    text-align: center;
     text-decoration: none;
   }
   .fa:hover {
@@ -181,7 +179,7 @@ width: 50%;
   .fa-facebook {
     background: #3B5998;
     color: white;
-    margin-left: 480px;
+    margin-left: 479px;
   }
   .fa-twitter {
     background: #55ACEE;
@@ -203,25 +201,22 @@ width: 50%;
   footer > a {
       color: #f2f2f2;
       text-decoration: none;
-      
   }
   footer > a:hover {
     background: #ffe8d6;
     color: grey;
   }
-  /* Slideshow container */
+ 
 .slideshow-container {
   max-width: 700px;
   position: relative;
   margin: auto;
 }
 
-/* Hide the images by default */
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -237,18 +232,15 @@ width: 50%;
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: #a5a58d;
 }
 
-/* Caption text */
 .text {
   color: #272922;
   font-size: 17px;
@@ -270,7 +262,6 @@ width: 50%;
   top: 0;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -286,7 +277,6 @@ width: 50%;
   background-color: #6b705c;
 }
 
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -310,13 +300,14 @@ width: 50%;
   .column {
     width: 33%;
   }
-  .navbar {
-  float: none;
-  width: 100%;
+  .navbar > a {
+  overflow: hidden;
+  padding: 5px 35px;
   }
-  footer {
+  footer > a{
+    align-content: center;
+  }
   
-  }
 
 } 
 .bg-banner {
