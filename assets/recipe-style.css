@@ -12,6 +12,7 @@
     text-align: center;
     padding: 10px 120px;
     text-decoration: none;
+    margin-left: 80px;
   }
   /* Change background on mouse-over */
 .navbar a:hover {
@@ -30,6 +31,12 @@
     text-align:center;
     padding: 9em 0 10em 0 ;
   background-image: url("https://cdn.pixabay.com/photo/2017/05/15/11/49/pie-2314617__480.jpg");
+}
+.header3 {
+  margin-top: 60px;
+    text-align:center;
+    padding: 9em 0 10em 0 ;
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/24/07/33/jam-1106592__480.jpg");
 }
 body {
     font-family: 'Goudy Old Style', 'garamond';
