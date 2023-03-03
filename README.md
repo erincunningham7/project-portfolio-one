@@ -12,8 +12,14 @@
 <a name="general-info"></a>
 
 ## General Information
- This is a simple cooking website with a twist. All of the recipes are traditional family recipes passed down through generations. When deciding on a topic for this project, I consulted with my mentor who advised me to choose something I am passionate about. I love to cook and bake so a recipe website was a given. I came to the conclusion that a simple recipe website was too basic, so I approached the task from a different viewpoint. Ancestry is something that is also very important to me, and to many others too. The infusion of the two has the potential to amass a very specific client, middle-aged mothers especially. 
+ This is a simple cooking website with a twist. All of the recipes are traditional family recipes passed down through generations. When deciding on a topic for this project, I consulted with my mentor who advised me to choose something I am passionate about. I love to cook and bake so a recipe website was a given. I came to the conclusion that a simple recipe website was too basic, so I approached the task from a different viewpoint. Ancestry is something that is also very important to me, and to many others too. The infusion of the two has the potential to amass a very specific client, middle-aged women especially. 
+
  This website contains all the bones of a classic web page, fixed menu bar, footer with social media links and an eye-catching hero image. Aside from the usual, it has a treasure of varying elements, from the image links to the details element underneath, the standard form, slideshow, and even an embedded video. It showcases an array of my talents and is also enjoyable for the user as it's easy to navigate and provides feedback throughout the website.
+
+ ## User Experience
+
+ * First Time Visiter Goals
+
 
 
 
