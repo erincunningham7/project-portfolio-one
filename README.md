@@ -16,9 +16,37 @@
 
  This website contains all the bones of a classic web page, fixed menu bar, footer with social media links and an eye-catching hero image. Aside from the usual, it has a treasure of varying elements, from the image links to the details element underneath, the standard form, slideshow, and even an embedded video. It showcases an array of my talents and is also enjoyable for the user as it's easy to navigate and provides feedback throughout the website.
 
+ <a name="ux"></a>
+
  ## User Experience
 
- * First Time Visiter Goals
+ **First Time Visiter Goals**
+ 1. I want to immediately have an understanding of the site's purpose.
+ 2. I want the website to look simple yet offer value at the same time.
+ 3. The website and embedded websites load fast.
+ 4. Information is easy to find.
+ 5. I don't want to be shocked by harsh contrasting colours, I want to be visually pleased with the soft chosen colour palette.
+ 6. I want interactive elements to be available throughout the website in order to keep the clients engaged.
+
+ **Returning Visitor Goals**
+ 1. I want to instantly have access to the menu in order to navigate to a certain subsection.
+ 2. I want to be able to see the latest recipes added to the recipe catalogue.
+
+ **Frequent User Goals**
+ 1. I want to have an option to subscribe to access more recipes.
+
+ <a name="features"></a>
+
+ ## Features
+
+ **Existing Features**
+
+ * F01 Navigation Bar
+
+ * The navigation bar is immediately accessible upon landing on the page. The colours coincide with the colour palette throughout the website. It includes Home, Recipes, Our Story, Join Us, and Subscribe links that are also responsive, on small screens the links stack vertically. The menu has an interactive element as it changes colour when the mouse hovers over each link. It also has a fixed element so it is always easily accessible to the client. 
+
+ * F02 
+
 
 
 
@@ -62,3 +90,7 @@ Used Slack to get my website live so I could request help from other slack users
 [Strawberry jam recipe inspiration](https://www.epicurious.com/recipes/food/views/old-fashioned-raspberry-jam-230700)
 
 [Readme.md help](https://www.ionos.com/digitalguide/websites/web-development/readme-file/#:~:text=The%20table%20of%20contents%20can%20be%20structured%20with,IDs%20for%20the%20headlines%20in%20the%20readme%20file.)
+
+Used slack search to figure out why dragging and dropping my images into a folder was not working. I can upload them if I right click the folder instead
+
+[Readme.md help](https://markdownguide.org/cheat-sheet/)
