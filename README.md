@@ -41,11 +41,45 @@
 
  **Existing Features**
 
- * F01 Navigation Bar
+ **F01 Navigation Bar**
 
- * The navigation bar is immediately accessible upon landing on the page. The colours coincide with the colour palette throughout the website. It includes Home, Recipes, Our Story, Join Us, and Subscribe links that are also responsive, on small screens the links stack vertically. The menu has an interactive element as it changes colour when the mouse hovers over each link. It also has a fixed element so it is always easily accessible to the client. 
+ * The navigation bar is immediately accessible upon landing on the page. The colours coincide with the colour palette throughout the website. It includes Home, Recipes, Our Story, Join Us, and Subscribe links that are also responsive, on small screens the links stack vertically. The menu has an interactive element as it changes colour when the mouse hovers over each link. It also has a fixed element on so it is always easily accessible to the client. 
 
- * F02 
+ **F02 Landing Page Image and Call to Action**
+
+ * The laning page provides us with a delicate photograph of a macaron wrapped in pink ribbon. The colours of the image intertwine neatly with the websites overall palette. I also chose this image because it lets the client envision that the goal of the webiste is orientated to the food industry.
+
+ * I wanted to ensure the text did not get lost in the image so I added a slightly opacified background to the text alone. It makes the text more legible.
+
+ **F03 Tagline**
+
+ * The chosen tagline "Let's immortalize our mothers and fathers through food" sums up the tone and premise of the website. I think the use of a tagline will strengthen the client's memory of the brand itself.
+
+ **F04 Recipe Links**
+
+ * The latest recipes section appears above the fold, which is imperative to maintain the user's interest and ensure they keep scrolling. 
+
+ * I decided on a triple column affect as it is eye pleasing for the user. It allows the server to showcase three varying recipes that give an indication of what the food section entails, that being various contrasting recipes.
+
+ * This subsection include three linkable photos that direct the user to a separate webpage. They also contain a details element that when clicked, displays a short sentence on each dish. The details element is also interactive, changing colour when the user hovers over the title.
+
+ * The background colour coincides with the soft, motherly-pink tone of the website.
+
+ * I think the overall design of this section is simple yet extremely eye pleasing and effective.
+
+ **F05 Slideshow**
+
+ * The slideshow feature allows me to convey a lot of information in a way that ensures the user does not feel overwhelmed, drip feeding the information with each slide instead of displaying the text in one large block.
+
+ * I decided to use old-fashioned images, keeping in line with the theme of lineage. I was determined that the photos had to have a hint of pink to match my colour palette.
+
+ * The slides gradually fade onto the screen, emphasising the gentle tone felt throughout the website.
+
+ * The text on the slides contains a slightly opaque background ensuring legibility.
+
+ * The slides arrow buttons contain an interactive element as they change colour when the mouse hovers over them.
+
+ 
 
 
 
@@ -94,3 +128,7 @@ Used Slack to get my website live so I could request help from other slack users
 Used slack search to figure out why dragging and dropping my images into a folder was not working. I can upload them if I right click the folder instead
 
 [Readme.md help](https://markdownguide.org/cheat-sheet/)
+
+[Position help for responsive navbar](https://www.w3schools.com/cssref/pr_class_position.php)
+
+[Media query screen size help](https://stackoverflow.com/questions/13847755/css-media-queries-for-screen-sizes)
