@@ -10,17 +10,17 @@
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 10px 90px;
+    padding: 10px 50px;
     text-decoration: none;
     margin-left: 80px;
   }
-  /* Change background on mouse-over */
+ 
 .navbar a:hover {
   background: #ffe8d6;
   color: grey;
 }
 .header {
-    margin-top: 60px;
+    margin-top: 50px;
     text-align:center;
     padding: 9em 0 10em 0 ;
     background-image: url(/images/macaron.jpg);
@@ -238,7 +238,7 @@ width: 50%;
 }
 
 .prev:hover, .next:hover {
-  background-color: #a5a58d;
+  background-color: #cb997e;
 }
 
 .text {
@@ -277,7 +277,7 @@ width: 50%;
 
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 1.6s;
 }
 
 @keyframes fade {
@@ -294,13 +294,26 @@ width: 50%;
   display: flex;
   flex-direction: column;
 }
-@media only screen and (min-width: 600px) {
-  .column {
-    width: 33%;
+@media only screen and (min-width: 320px) and (max-device-width : 480px) {
+.navbar {
+  position: static;
+  display: block;
+}
+.navbar > a {
+  display:inline;
+}
+}
+@media only screen and (min-width: 481px) and (max-device-width: 800px) {
+
+  .navbar {
+  position: static;
   }
   .navbar > a {
-  overflow: hidden;
-  padding: 5px 35px;
+    display: inline;
+  padding: 5px;
+  }
+  .column {
+    width: 33%;
   }
   footer > a{
     align-content: center;
