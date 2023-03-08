@@ -150,8 +150,11 @@ chosen colour palette. The first slide shows a black and white female photograph
 
 *Wireframes*
 
+[Desktop Wireframe](https://share.balsamiq.com/c/eRyq9zWhpvd4kyeK8tic1k.png)
 
+[Tablet Wireframe](https://share.balsamiq.com/c/cSJ9UT15kyTGe83DG9XBsD.png)
 
+[Mobile Wireframe](https://share.balsamiq.com/c/aWx7BUeaMpMMzobfDcfAzw.png)
 
 
  
