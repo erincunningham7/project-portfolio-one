@@ -20,20 +20,26 @@
 
  ## User Experience
 
- **First Time Visiter Goals**
- 1. I want to immediately have an understanding of the site's purpose.
- 2. I want the website to look simple yet offer value at the same time.
- 3. The website and embedded websites load fast.
- 4. Information is easy to find.
- 5. I don't want to be shocked by harsh contrasting colours, I want to be visually pleased with the soft chosen colour palette.
- 6. I want interactive elements to be available throughout the website in order to keep the clients engaged.
+ **Site Goals**
 
- **Returning Visitor Goals**
- 1. I want to instantly have access to the menu in order to navigate to a certain subsection.
- 2. I want to be able to see the latest recipes added to the recipe catalogue.
+ 1. As A Shopper 
 
- **Frequent User Goals**
- 1. I want to have an option to subscribe to access more recipes.
+* I want to cook something different.
+* I want to publish or simply share old family recipes.
+* I want to do something to honour my loved ones.
+* I want to find new and interesting recipes.
+* I want to immdetiately have an understanding of the site's purpose.
+* I want to be able to become a subscriber and recieve extra recipes.
+
+2. As The Site Administrator
+* I want the website to have a simple layout yet offer value at the same time.
+* The website and embedded websites load fast.
+* Information is easy to find.
+* I want the site to be aesthetically pleasing, using soft contrasting colours.
+* I want interactive elements to be available throughout the website in order to keep the clients engaged.
+
+**Wireframes**
+
 
  <a name="features"></a>
 
@@ -45,9 +51,9 @@
 
  * The navigation bar is immediately accessible upon landing on the page. The colours coincide with the colour palette throughout the website. It includes Home, Recipes, Our Story, Join Us, and Subscribe links that are also responsive, on small screens the links stack vertically. The menu has an interactive element as it changes colour when the mouse hovers over each link. It also has a fixed element on so it is always easily accessible to the client. 
 
- **F02 Landing Page Image and Call to Action**
+ **F02 Header**
 
- * The laning page provides us with a delicate photograph of a macaron wrapped in pink ribbon. The colours of the image intertwine neatly with the websites overall palette. I also chose this image because it lets the client envision that the goal of the webiste is orientated to the food industry.
+ * The header provides us with a delicate photograph of a macaron wrapped in pink ribbon. The colours of the image intertwine neatly with the websites overall palette. I also chose this image because it lets the client envision that the goal of the webiste is orientated to the food industry.
 
  * I wanted to ensure the text did not get lost in the image so I added a slightly opacified background to the text alone. It makes the text more legible.
 
@@ -78,6 +84,12 @@
  * The text on the slides contains a slightly opaque background ensuring legibility.
 
  * The slides arrow buttons contain an interactive element as they change colour when the mouse hovers over them.
+
+ **F07 Form**
+
+ * The form feature allows clients to honour their families by sharing their recipes. This establishes a continuous connection between the user and the site.
+
+ * 
 
  
 
@@ -132,3 +144,5 @@ Used slack search to figure out why dragging and dropping my images into a folde
 [Position help for responsive navbar](https://www.w3schools.com/cssref/pr_class_position.php)
 
 [Media query screen size help](https://stackoverflow.com/questions/13847755/css-media-queries-for-screen-sizes)
+
+Solved footer icon alignment issue with code institute "footer styling" lesson
