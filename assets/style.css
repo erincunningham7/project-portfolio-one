@@ -1,13 +1,14 @@
 .navbar {
-    overflow: hidden;
+  text-align: center;
+  display: inline;
+  overflow: hidden;
     background-color: #6b705c;
     position: fixed;
     top: 0;
     width: 100%;
+    padding: 7px 0;
   }
   .navbar a {
-    float: left;
-    display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 10px 50px;
@@ -135,6 +136,7 @@ body {
   }
   .join {
     background-color: #ffe8d6;
+    height: 
   }
   .join-us {
     background-color: #ffe8d6;
@@ -143,12 +145,13 @@ body {
     font-weight: bolder;
     font-size: large;
     text-align: center;
+    height: 500px;
   }
   form {
     text-align:center;
   }
   .join-img {
-    height: 440px;
+    height: 500px;
   }
   .join-align {
 display:flex;
@@ -173,13 +176,18 @@ width: 50%;
     width: 50px;
     text-decoration: none;
   }
+  footer {
+    text-align: center;
+  }
+  
+  
   .fa:hover {
     opacity: 0.7;
   }
   .fa-facebook {
     background: #3B5998;
     color: white;
-    margin-left: 479px;
+    /*margin-left: 479px;*/
   }
   .fa-twitter {
     background: #55ACEE;
@@ -294,22 +302,28 @@ width: 50%;
   display: flex;
   flex-direction: column;
 }
-@media only screen and (min-width: 320px) and (max-device-width : 480px) {
+@media only screen and (min-width: 320px) and (max-device-width : 576px) {
 .navbar {
   position: static;
-  display: block;
+  display: inline-block;
+  text-align: center;
+
 }
 .navbar > a {
-  display:inline;
+  text-align: center;
+  display:block;
 }
 }
-@media only screen and (min-width: 481px) and (max-device-width: 800px) {
+@media only screen and (min-width: 577px) and (max-device-width: 950px) {
 
   .navbar {
-  position: static;
+  display: inline-block;
+  text-align: center;
+  
   }
   .navbar > a {
     display: inline;
+    text-align: center;
   padding: 5px;
   }
   .column {
@@ -321,6 +335,18 @@ width: 50%;
   
 
 } 
+@media only screen and (min-width: 951px) {
+  .navbar {
+    display: inline-block;
+    text-align: center;
+    
+    }
+    .navbar > a {
+      display: inline;
+      text-align: center;
+    padding: 5px;
+    }
+}
 .bg-banner {
   background-color: #b7b7a4;
     opacity: 0.7;
