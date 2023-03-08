@@ -228,6 +228,8 @@ chosen colour palette. The first slide shows a black and white female photograph
 
 ![Image](/images/HTML-validator.png)
 
+![Image](/images/css-validator.png)
+
 
 
 
