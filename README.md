@@ -38,8 +38,6 @@
 * I want the site to be aesthetically pleasing, using soft contrasting colours.
 * I want interactive elements to be available throughout the website in order to keep the clients engaged.
 
-**Wireframes**
-
 
  <a name="features"></a>
 
@@ -67,7 +65,7 @@
 
  * I decided on a triple column affect as it is eye pleasing for the user. It allows the server to showcase three varying recipes that give an indication of what the food section entails, that being various contrasting recipes.
 
- * This subsection include three linkable photos that direct the user to a separate webpage. They also contain a details element that when clicked, displays a short sentence on each dish. The details element is also interactive, changing colour when the user hovers over the title.
+ * This subsection includes three linkable photos that direct the user to a separate webpage. They also contain a details element that when clicked, displays a short sentence on each dish. The details element is also interactive, changing colour when the user hovers over the title.
 
  * The background colour coincides with the soft, motherly-pink tone of the website.
 
@@ -77,7 +75,7 @@
 
  * The slideshow feature allows me to convey a lot of information in a way that ensures the user does not feel overwhelmed, drip feeding the information with each slide instead of displaying the text in one large block.
 
- * I decided to use old-fashioned images, keeping in line with the theme of lineage. I was determined that the photos had to have a hint of pink to match my colour palette.
+ * I decided to use old-fashioned images, keeping in line with the theme of lineage. I was determined that the photos had to have a hint of pink and grey to match my colour palette.
 
  * The slides gradually fade onto the screen, emphasising the gentle tone felt throughout the website.
 
@@ -85,11 +83,76 @@
 
  * The slides arrow buttons contain an interactive element as they change colour when the mouse hovers over them.
 
- **F07 Form**
+ **F07 Join Form**
 
- * The form feature allows clients to honour their families by sharing their recipes. This establishes a continuous connection between the user and the site.
+ * This form feature allows clients to honour their families by sharing their recipes. This establishes a continuous connection between the user and the site.
 
- * 
+ * The form entails a zig-zag layout that coincides with the nexts section.
+
+ * All inputs are required for submission.
+
+ * When you press the submit button with your personal information, you are taken to a new thank you window, further emphasizing interaction.
+
+ * The background colour is a baby pink shade, reinforcing the inherently sweet and charming feeling of the site.
+
+ * The image to the right of the form relates to the images used in the slideshow, ensuring cohesiveness.
+
+ **F06 Embedded Video**
+
+ * The youtube video element adds another media component to the site, essentially entertaining the client and adding value.
+
+ * The zig-zag layout is seen here again, with both media elements at opposing sides.
+
+ **F07 Subscriber Form**
+
+ * This submission form like the previous one, is interactive. When submitted, the client is taken to a new page confirming subscription.
+
+ * The background color is a light-grey shade. The grey adds a more professional feeling to the site, contrasting with the emotive pinks, and coincides with the grey header and footer.
+
+ **F08 Footer**
+
+ * The footer is the same shade of grey as the header, guaranteeing a congruous layout.
+
+ * I decided the use of familiar social media icons was a better option than text. They are a common visual language, improve visual interest and provide functionality and feedback.
+
+ * Throughout various screen sizes, they remain centered.
+
+ * When the user hovers over the icons, they change colour, establishing interaction.
+
+ <a name="design"></a>
+
+ ## Design
+
+*Imagery*
+
+* First and foremost I had to have images that were free to use. [Free use images site](https://pixabay.com/)
+
+* Upon the advice of my mentor, I saved all of the images to my desktop and made a folder specifically to store them, just incase the website removes the images.
+
+* The large background image chosen for the header centers on a pretty-pink macaron wrapped in a bow. I chose this image because it is delicate and neat. The colours match that of the chosen colour palette. This is the first image the client sees upon opening the page, and highlights the fact that this a website centered around food.
+
+* For the recipe images, I needed to be sure they were relevant to the recipes but also high quality and enticing to the client. The mince image looks homely and rustic and I liked the flowers in the background as flowers are seen throughout the websites imagery. The tart image appears in the center column as its spiral design is captivating and the most interesting of the three. The plaid cloth reinforces that bucolic atmosphere I wanted. The final jam image has ribbons similar to the header image. The jars are dainty and cute, supporting the overall delicate mood. Although they differ, the recipe images collaborate effectively.
+
+* It was imperative that the slideshow images fortified the historical element of the website. I wanted old fashioned images, with a pink and grey tone to concur with the 
+chosen colour palette. The first slide shows a black and white female photograph, tenderly covered by a pink rose. The image is relevant to the text and the theme. The second slide displays several black and white photographs, pink roses, pink macarons and a coffee cup sitting on a notepad. The photos are comparative to the first slide, and increase the old fashioned, historical vibe. The pink roses are also cohesive with the first slide and the pink macarons relate to the header. The coffee cup boosts the food aspect. The notepad relates to the documentation mentioned in the text. The final slide contains pink blossoms and a pocket watch that sits on an old ribbon-wrapped book. The blossoms fit beautifully with the previous florals seen in the site and the pocket watch is antiquated and historical. The book is old fashioned and sets forth the emphasis of ribbons as we have already seen.
+
+* The join us image is relative to the slideshow images as it contains the pink flowers and ancient photgraphs. The documents in the background of the image are superannuated, coinciding nicely with the previous images. 
+
+*Colour Scheme*
+
+* Before I chose my colour scheme, I researched the [colour feelings](https://99designs.com/blog/tips/how-color-impacts-emotions-and-behaviors/) and moods different colours can evoke in people. I knew I wanted mature colours, hence why I chose the grey. I chose pink aswell because it's sweet and pleasant. The pink and grey together create the perfect balance of playfullness and professionalism. My target audience being middle aged women, I feel these colours are perfect together. 
+
+* Knowing now the colours I wanted to produce, I used a [colour palette picker](https://coolors.co/palettes/palettes) for inspiration. I found a pink and grey palette that was very popular and chose it.
+
+*Typography*
+
+* When choosing the typography I wanted to pick fonts that were accessible on all devices. I utilised a [font finder](https://www.tutorialbrain.com/css_tutorial/css_font_family_list/) and picked 'Goudy Old Style' and 'garamond' as a fallback. These styles are easily decipherable.
+
+*Wireframes*
+
+*
+
+
 
  
 
@@ -146,3 +209,6 @@ Used slack search to figure out why dragging and dropping my images into a folde
 [Media query screen size help](https://stackoverflow.com/questions/13847755/css-media-queries-for-screen-sizes)
 
 Solved footer icon alignment issue with code institute "footer styling" lesson
+
+Changed method on forms from post to get to remove error
+
