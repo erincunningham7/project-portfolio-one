@@ -150,7 +150,7 @@ chosen colour palette. The first slide shows a black and white female photograph
 
 *Wireframes*
 
-*
+
 
 
 
