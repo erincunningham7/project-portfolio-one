@@ -62,9 +62,11 @@ chosen colour palette. The first slide shows a black and white female photograph
 
 * Knowing now the colours I wanted to produce, I used a [colour palette picker](https://coolors.co/palettes/palettes) for inspiration. I found a pink and grey palette that was very popular and chose it.
 
+![Image](images/colour-palette.png)
+
 *Typography*
 
-* When choosing the typography I wanted to pick fonts that were accessible on all devices. I utilised a [font finder](https://www.tutorialbrain.com/css_tutorial/css_font_family_list/) and picked 'Goudy Old Style' and 'garamond' as a fallback. These styles are easily decipherable.
+* When choosing the typography I utilised a [font finder](https://www.tutorialbrain.com/css_tutorial/css_font_family_list/) and picked 'Goudy Old Style' and 'garamond' as a fallback. These styles are easily decipherable.
 
 *Wireframes*
 
@@ -86,15 +88,21 @@ chosen colour palette. The first slide shows a black and white female photograph
 
  * The navigation bar is immediately accessible upon landing on the page. The colours coincide with the colour palette throughout the website. It includes Home, Recipes, Our Story, Join Us, and Subscribe links that are also responsive, on small screens the links stack vertically. The menu has an interactive element as it changes colour when the mouse hovers over each link. It also has a fixed element on so it is always easily accessible to the client. 
 
+ ![Image](images/navbar.png)
+
  **F02 Header**
 
  * The header provides us with a delicate photograph of a macaron wrapped in pink ribbon. The colours of the image intertwine neatly with the websites overall palette. I also chose this image because it lets the client envision that the goal of the webiste is orientated to the food industry.
 
  * I wanted to ensure the text did not get lost in the image so I added a slightly opacified background to the text alone. It makes the text more legible.
 
+ ![Image](images/header.png)
+
  **F03 Tagline**
 
  * The chosen tagline "Let's immortalize our mothers and fathers through food" sums up the tone and premise of the website. I think the use of a tagline will strengthen the client's memory of the brand itself.
+
+ ![Image](images/tagline.png)
 
  **F04 Recipe Links**
 
@@ -108,6 +116,8 @@ chosen colour palette. The first slide shows a black and white female photograph
 
  * I think the overall design of this section is simple yet extremely eye pleasing and effective.
 
+ ![Image](images/recipe-links.png)
+
  **F05 Slideshow**
 
  * The slideshow feature allows me to convey a lot of information in a way that ensures the user does not feel overwhelmed, drip feeding the information with each slide instead of displaying the text in one large block.
@@ -119,6 +129,8 @@ chosen colour palette. The first slide shows a black and white female photograph
  * The text on the slides contains a slightly opaque background ensuring legibility.
 
  * The slides arrow buttons contain an interactive element as they change colour when the mouse hovers over them.
+
+ ![Image](images/slideshow.png)
 
  **F07 Join Form**
 
@@ -134,17 +146,23 @@ chosen colour palette. The first slide shows a black and white female photograph
 
  * The image to the right of the form relates to the images used in the slideshow, ensuring cohesiveness.
 
+ ![Image](images/join-form.png)
+
  **F06 Embedded Video**
 
  * The youtube video element adds another media component to the site, essentially entertaining the client and adding value.
 
  * The zig-zag layout is seen here again, with both media elements at opposing sides.
 
+ ![Images](images/video.png)
+
  **F07 Subscriber Form**
 
  * This submission form like the previous one, is interactive. When submitted, the client is taken to a new page confirming subscription.
 
  * The background color is a light-grey shade. The grey adds a more professional feeling to the site, contrasting with the emotive pinks, and coincides with the grey header and footer.
+
+ ![Image](images/sub-form.png)
 
  **F08 Footer**
 
@@ -155,6 +173,8 @@ chosen colour palette. The first slide shows a black and white female photograph
  * Throughout various screen sizes, they remain centered.
 
  * When the user hovers over the icons, they change colour, establishing interaction.
+
+ ![Images](images/footer.png)
 
 <a name="tech-used"></a>
 
@@ -205,6 +225,8 @@ chosen colour palette. The first slide shows a black and white female photograph
 ## Testing
 
 *Validator Testing*
+
+![Image](/images/HTML-validator.png)
 
 
 
