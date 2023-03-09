@@ -230,58 +230,62 @@ chosen colour palette. The first slide shows a black and white female photograph
 
 * [Website mockup generator](https://websitemockupgenerator.com/) generated my mockup images of my website on various devices.
 
+* [Stack Overflow](https://stackoverflow.com/questions/12717993/stylesheet-not-updating-when-i-refresh-my-site) was beneficial in teaching me the use of Ctrl + f5 in forcing the browser to reload the page, I wasn't seeing my css updates immediately and this solved the issue.
+
+* I used slack search to figure out why dragging and dropping my images into a folder was not working. I can upload them if I right click the folder instead.
+
+* I solved footer icon alignment issues with the code institute "footer styling" lesson.
+
+* I recieved an error 501 on my two webpages that display after the forms are filled out. I changed method on forms from post to get to remove the error, which I found out through slack.
+
+* My header background image was not displaying in the GitHub live site, but worked perfectly through port 8000. My peers on slack informed me the issue was a result of using absolute paths instead of relative.
+
+<a name="testing"></a>
+
 ## Testing
+
+I feel as though I have conducted all of the necessary tests to ensure my website works well. All features mentioned work on various screen sizes, and continuously work as intended to. The five linked web pages have caused errors during the creative process, yet these errors have been eradicated and work smoothly ever since. 
+
+Over the course of building this webpage, I have religiously checked how the website looks on my iPhone, Samsung tablet and Lenovo laptop. I have tweaked the responsiveness declarations countless times. On iPhone I came to the conclusion that the menu bar displayed better vertically stacked and therfore not at a fixed position, as it would take up half the screen height. I also decided to change the zig-zag pattern of the two final subsections. It looked too cramped and the images became distorted and hard to decipher, along with the forms overlapping their neighbouring elements. I changed them to a simple block display instead. I did not have any major problems with the tablet responsiveness, just had to make sure the recipe images aligned nicely in their columns and the menu and footer elements displayed neatly.
 
 *Validator Testing*
 
-* Results for index.html
+* Results for HTML
+
 ![Image](/images/HTML-validator.png)
 
-* Results for congrats.html
+* Results for CSS
 
-
-* Results for thank-you.html
-
-
-* Results for recipe-one.html
-
-
-* Results for recipe-two.html
-
-* Results for recipe-three.html
-
-
-* Results for style.css
 ![Image](/images/css-validator.png)
 
-* Results for recipe-style.css
+*Browser Compatibility*
 
+ * Testing has been carried out on the following browsers:
+ 1. Chrome Version 110.0.5481.178 (Official Build) (64-bit)
+ 2. Firefox Version 110.0.1 (64-bit)
+ 3. Safari on iOS Version 16.3
+ 4. Microsoft Edge Version 110.0.1587.63 (Official build) (64-bit)
 
+ *Unfixed Bugs*
 
+ The forms included in the website, direct the client to a new webpage. The menu bar is the same as the main webpage. Only the home button works, as I couldn't figure out how to direct the buttons to a certain part of a separate webpage. I tried w3Schools, mozilla and just googling the issue itself but to no avail.
 
+ <a name="deployment"></a>
 
+ ## Deployment
 
+ *The site was deployed to GitHub pages. The following steps guide us through that process*
 
+ 1. In th GitHub repository, find the "Settings" tab, scroll down the menu on the left-hand side until you reach "Pages" and click it.
 
+ 2.  Under the "Build and Deployment" section you will see a source heading. From the drop down menu, select the "main" option.
 
+ 3. Click save.
 
+ 4. The page will automatically update and display "Your site is live at ..."  and from there you can click Visit Site to see your finsihed product!
 
-[Helped me fix my css, it wasnt updating straight away](https://stackoverflow.com/questions/12717993/stylesheet-not-updating-when-i-refresh-my-site)
+ [The live link can be found here](https://erincunningham7.github.io/project-portfolio-one/)
 
-Used Slack to get my website live so I could request help from other slack users in regards to why my css wasn't updating. Got help to deploy my website and eventually found out i can use ctrl+f5 to refresh my page and view the new css added with immediate effect.
+ ## Acknowledgements
 
-
-Used slack search to figure out why dragging and dropping my images into a folder was not working. I can upload them if I right click the folder instead
-
-
-[Position help for responsive navbar](https://www.w3schools.com/cssref/pr_class_position.php)
-
-[Media query screen size help](https://stackoverflow.com/questions/13847755/css-media-queries-for-screen-sizes)
-
-Solved footer icon alignment issue with code institute "footer styling" lesson
-
-Changed method on forms from post to get to remove error
-
-[How to upload images in readme file](https://stackoverflow.com/questions/22428662/displaying-an-image-in-a-github-readme)
-
-[Website mockup generator](https://websitemockupgenerator.com/)
+ * Thank you to my mentor Daisy McGirr who pushed me in the right direction when choosing a topic for my website. All of the advice and feedback was taken on board and resulted in a project I can say I am proud of. 
