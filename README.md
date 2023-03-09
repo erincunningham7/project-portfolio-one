@@ -110,13 +110,17 @@ chosen colour palette. The first slide shows a black and white female photograph
 
  * I decided on a triple column affect as it is eye pleasing for the user. It allows the server to showcase three varying recipes that give an indication of what the food section entails, that being various contrasting recipes.
 
- * This subsection includes three linkable photos that direct the user to a separate webpage. They also contain a details element that when clicked, displays a short sentence on each dish. The details element is also interactive, changing colour when the user hovers over the title.
+ * This section contains a details element that when clicked, displays a short sentence on each dish. The details element is also interactive, changing colour when the user hovers over the title.
 
  * The background colour coincides with the soft, motherly-pink tone of the website.
 
  * I think the overall design of this section is simple yet extremely eye pleasing and effective.
 
  ![Image](images/recipe-links.png)
+
+ * When the user clicks the recipe image, they are directed to a new web page. These pages contain a brief historical background on the recipe, ingredients and instructions list too. The menu bar can take the user back to the main page with the Home button, and aswell as that jump to different parts of the recipe page.
+
+ ![Image](images/ingredients-list.png)
 
  **F05 Slideshow**
 
@@ -140,13 +144,15 @@ chosen colour palette. The first slide shows a black and white female photograph
 
  * All inputs are required for submission.
 
- * When you press the submit button with your personal information, you are taken to a new thank you window, further emphasizing interaction.
-
  * The background colour is a baby pink shade, reinforcing the inherently sweet and charming feeling of the site.
 
  * The image to the right of the form relates to the images used in the slideshow, ensuring cohesiveness.
 
  ![Image](images/join-form.png)
+
+ * When you press the submit button with your personal information, you are taken to a new thank you window, further emphasizing interaction.
+
+ ![Image](images/thank-you.png)
 
  **F06 Embedded Video**
 
@@ -159,6 +165,8 @@ chosen colour palette. The first slide shows a black and white female photograph
  **F07 Subscriber Form**
 
  * This submission form like the previous one, is interactive. When submitted, the client is taken to a new page confirming subscription.
+
+ ![Image](images/congrats.png)
 
  * The background color is a light-grey shade. The grey adds a more professional feeling to the site, contrasting with the emotive pinks, and coincides with the grey header and footer.
 
@@ -226,9 +234,27 @@ chosen colour palette. The first slide shows a black and white female photograph
 
 *Validator Testing*
 
+* Results for index.html
 ![Image](/images/HTML-validator.png)
 
+* Results for congrats.html
+
+
+* Results for thank-you.html
+
+
+* Results for recipe-one.html
+
+
+* Results for recipe-two.html
+
+* Results for recipe-three.html
+
+
+* Results for style.css
 ![Image](/images/css-validator.png)
+
+* Results for recipe-style.css
 
 
 
