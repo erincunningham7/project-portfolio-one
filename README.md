@@ -258,6 +258,10 @@ Over the course of building this webpage, I have religiously checked how the web
 
 ![Image](/images/css-validator.png)
 
+* Results for Web Accessibility Evaluation
+
+![Image](/images/wave.png)
+
 *Browser Compatibility*
 
  * Testing has been carried out on the following browsers:
