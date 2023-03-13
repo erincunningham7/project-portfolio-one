@@ -330,6 +330,7 @@ iframe {
 .join-us {
   display:block;
   width:fit-content;
+  margin-bottom: 10px;
 }
 .join-align {
   margin-top: 15px;
