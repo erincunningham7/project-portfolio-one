@@ -246,7 +246,7 @@ chosen colour palette. The first slide shows a black and white female photograph
 
 I feel as though I have conducted all of the necessary tests to ensure my website works well. All features mentioned work on various screen sizes, and continuously work as intended to. The five linked web pages have caused errors during the creative process, yet these errors have been eradicated and work smoothly ever since. 
 
-Over the course of building this webpage, I have religiously checked how the website looks on my iPhone, Samsung tablet and Lenovo laptop. I have tweaked the responsiveness declarations countless times. On iPhone I came to the conclusion that the menu bar displayed better vertically stacked and therfore not at a fixed position, as it would take up half the screen height. I also decided to change the zig-zag pattern of the two final subsections. It looked too cramped and the images became distorted and hard to decipher, along with the forms overlapping their neighbouring elements. I changed them to a simple block display instead. I did not have any major problems with the tablet responsiveness, just had to make sure the recipe images aligned nicely in their columns and the menu and footer elements displayed neatly.
+Over the course of building this webpage, I have religiously checked how the website looks on my iPhone, Samsung tablet and Lenovo laptop. I have tweaked the responsiveness declarations countless times. On iPhone I came to the conclusion that the menu bar displayed better vertically stacked and therfore not at a fixed position, as it would take up half the screen height. I also decided to change the zig-zag pattern of the two final subsections. It looked too cramped and the images became distorted and hard to decipher, along with the forms overlapping their neighbouring elements. I changed them to a simple block display instead. The grey colours chosen for the website have a hint of green on iPhone but alas it does not take away from the overall visùal effect. I did not have any major problems with the tablet responsiveness, just had to make sure the recipe images aligned nicely in their columns and the menu and footer elements displayed neatly.
 
 *Validator Testing*
 
@@ -292,4 +292,4 @@ Over the course of building this webpage, I have religiously checked how the web
 
  ## Acknowledgements
 
- * Thank you to my mentor Daisy McGirr who pushed me in the right direction when choosing a topic for my website. All of the advice and feedback was taken on board and resulted in a project I can say I am proud of. 
+ * Thank you to my mentor Daisy McGirr who pushed me in the right direction when choosing a topic for my website. All of the advice and feedback was taken on board and resulted in a project I can say I am extremely proud of. 
