@@ -15,7 +15,7 @@
 
  This website contains all the bones of a classic web page, fixed menu bar, footer with social media links and an eye-catching hero image. Aside from the usual, it has a treasure of varying elements, from the image links to the details element underneath, the standard form, slideshow, and even an embedded video. It showcases an array of my talents and is also enjoyable for the user as it's easy to navigate and provides feedback throughout the website.
 
-![Image](/images/all-devices-black.png)
+![Image](/images/alldevices.png)
 
  <a name="ux"></a>
 
@@ -75,8 +75,6 @@ chosen colour palette. The first slide shows a black and white female photograph
 [Tablet Wireframe](https://share.balsamiq.com/c/cSJ9UT15kyTGe83DG9XBsD.png)
 
 [Mobile Wireframe](https://share.balsamiq.com/c/aWx7BUeaMpMMzobfDcfAzw.png)
-
-
 
  <a name="features"></a>
 
@@ -231,6 +229,8 @@ chosen colour palette. The first slide shows a black and white female photograph
 * [Website mockup generator](https://websitemockupgenerator.com/) generated my mockup images of my website on various devices.
 
 * [Stack Overflow](https://stackoverflow.com/questions/12717993/stylesheet-not-updating-when-i-refresh-my-site) was beneficial in teaching me the use of Ctrl + f5 in forcing the browser to reload the page, I wasn't seeing my css updates immediately and this solved the issue.
+
+* [Techsini](https://techsini.com/multi-mockup/index.php) created the collage image of my website on multiple devices.
 
 * I used slack search to figure out why dragging and dropping my images into a folder was not working. I can upload them if I right click the folder instead.
 
