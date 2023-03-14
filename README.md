@@ -232,6 +232,10 @@ chosen colour palette. The first slide shows a black and white female photograph
 
 * [Techsini](https://techsini.com/multi-mockup/index.php) created the collage image of my website on multiple devices.
 
+*[W3Schools](https://www.w3schools.com/howto/howto_css_fixed_footer.asp) helped in making the footer fixed to the bottom of the page.
+
+*[W3Schools](https://www.w3schools.com/howto/howto_css_dropdown.asp#:~:text=Use%20any%20element%20to%20open%20the%20dropdown%20menu%2C,to%20position%20the%20dropdown%20menu%20correctly%20with%20CSS.) gave me an example of how to create a dropdown menu like the one I used in the menu bar.
+
 * I used slack search to figure out why dragging and dropping my images into a folder was not working. I can upload them if I right click the folder instead.
 
 * I solved footer icon alignment issues with the code institute "footer styling" lesson.
