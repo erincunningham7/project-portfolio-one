@@ -226,8 +226,6 @@ chosen colour palette. The first slide shows a black and white female photograph
 
 * [Digital Guide](https://www.ionos.com/digitalguide/websites/web-development/readme-file/#:~:text=The%20table%20of%20contents%20can%20be%20structured%20with,IDs%20for%20the%20headlines%20in%20the%20readme%20file.) and [Markdown Guide](https://markdownguide.org/cheat-sheet/) helped me in navigating the readme markdown language.
 
-* [Website mockup generator](https://websitemockupgenerator.com/) generated my mockup images of my website on various devices.
-
 * [Stack Overflow](https://stackoverflow.com/questions/12717993/stylesheet-not-updating-when-i-refresh-my-site) was beneficial in teaching me the use of Ctrl + f5 in forcing the browser to reload the page, I wasn't seeing my css updates immediately and this solved the issue.
 
 * [Techsini](https://techsini.com/multi-mockup/index.php) created the collage image of my website on multiple devices.
