@@ -58,9 +58,9 @@ chosen colour palette. The first slide shows a black and white female photograph
 
 *Colour Scheme*
 
-* Before I chose my colour scheme, I researched the [colour feelings](https://99designs.com/blog/tips/how-color-impacts-emotions-and-behaviors/) and moods different colours can evoke in people. I knew I wanted mature colours, hence why I chose the grey. I chose pink aswell because it's sweet and pleasant. The pink and grey together create the perfect balance of playfullness and professionalism. My target audience being middle aged women, I feel these colours are perfect together. 
+* Before I chose my colour scheme, I researched the [colour feelings](https://99designs.com/blog/tips/how-color-impacts-emotions-and-behaviors/) and moods different colours can evoke in people. I knew I wanted a calming colour, hence why I chose the green. I chose pink aswell because it's sweet and pleasant. The pink and green together create the perfect balance of playfullness and relaxation. My target audience being middle aged women, I feel these colours are perfect together. 
 
-* Knowing now the colours I wanted to produce, I used a [colour palette picker](https://coolors.co/palettes/palettes) for inspiration. I found a pink and grey palette that was very popular and chose it.
+* Knowing now the colours I wanted to produce, I used a [colour palette picker](https://coolors.co/palettes/palettes) for inspiration. I found a pink and green palette that was very popular and chose it.
 
 ![Image](docs/colour-palette.png)
 
