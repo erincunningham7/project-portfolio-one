@@ -365,7 +365,9 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
- 
+}
+#famrecipe {
+  width: 200px;
 }
 @media only screen and (min-width: 320px) and (max-width : 745px) {
 .navbar {
@@ -378,6 +380,12 @@ footer {
 .navbar > a {
   text-align: center;
   display:block;
+  margin-left: 0%;
+}
+.dropbtn {
+  text-align: center;
+  display:block;
+  margin-left: 0%;
 }
 .header {
  margin-top: 15px; 
@@ -401,6 +409,9 @@ footer {
 }
 .sub-vid {
   display: block;
+}
+.row {
+  flex-direction: column;
 }
 
 }

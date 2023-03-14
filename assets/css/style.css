@@ -1,0 +1,451 @@
+.navbar {
+    text-align: center;
+    display: inline;
+    overflow: hidden;
+      background-color: #6b705c;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 7px 0;
+  
+    }
+    .navbar a {
+      color: #f2f2f2;
+      text-align: center;
+      padding: 10px 50px;
+      text-decoration: none;
+      margin-left: 80px;
+    }
+   
+  .navbar a:hover {
+    background: #ffe8d6;
+    color: grey;
+  }
+  /* Dropdown Button */
+  .dropbtn {
+    border-style: none;
+    color: white;
+    background-color: #6b705c;
+    text-align: center;
+      padding: 10px 50px;
+      text-decoration: none;
+      margin-left: 80px;
+      font-family: 'Goudy Old Style', 'garamond';
+      font-size: 17px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position:sticky;
+    background-color: #ffe8d6;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 10px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    position: static;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: rgb(59, 58, 58);}
+  .header {
+      margin-top: 70px;
+      text-align:center;
+      padding: 9em 0 10em 0 ;
+      background-image: url(../images/macaron.jpg);
+      background-repeat: no-repeat;
+  }
+  
+  body {
+      font-family: 'Goudy Old Style', 'garamond';
+  }
+  .header > h1 {
+      font-size: 1.75em;
+      margin: 0 0 0.5em 0;
+      text-transform: uppercase;
+      text-decoration: underline;
+  }
+  .header p {
+      color: inherit;
+      letter-spacing: 0.225em;
+      text-transform: uppercase;
+      top: 0;
+    font-size: 1.14em;
+    text-transform:uppercase;
+  }
+  .header-text{
+      font-weight: bolder;
+  }
+  
+    h2 {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      text-align:center;
+      padding: 5px ;
+      background-color: #cb997e;
+    }
+    .row {
+      display: flex;
+      background-color: #cb997e;
+    }
+    
+    .column {
+      flex: 33.33%;
+      padding: 10px;
+      flex-direction: column;
+    }
+    details {
+      border-radius: 3px;
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.15s background linear;
+      background-color: #cb997e;
+      display: flex;
+      font-weight: bolder;
+    }
+    
+    details:hover,
+    details:focus {
+      background: #b7b7a4;
+    }
+    summary {
+      background: url("https://assets.codepen.io/14179/Info.svg") 11px 11.5px no-repeat;
+      list-style: none;
+      padding: 10px;
+      padding-left: 33px;
+    }
+    details p {
+      cursor: auto;
+      background: #eee;
+      padding: 15px;
+      width: 250px;
+      position: absolute;
+      left: 0;
+      top: 35px;
+      border-radius: 4px;
+      right: 0;
+    }
+    
+    details p:before {
+      content: "";
+      border-bottom: 12px solid #eee;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      height: 0;
+      left: 10px;
+      position: absolute;
+      top: -10px;
+      width: 0;
+    }
+    .text-column {
+      float: left;
+      width: 33.33%;
+    }
+    
+    /* Clear floats after the columns */
+    .text-row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .about {
+      background-color: #ddbea9;
+    }
+    .granny {
+      width: 50%;
+      height: 300px;
+    }
+    .about p {
+      float: right;
+      width: 50%;
+      font-weight: bolder;
+      font-size: larger;
+      text-align: center;
+    }
+    .join {
+      background-color: #ffe8d6;
+    }
+  
+    .join-us {
+      background-color: #ffe8d6;
+      float: left;
+      width: 50%;
+      font-weight: bolder;
+      font-size: large;
+      text-align: center;
+      height: 500px;
+    }
+    form {
+      text-align:center;
+    }
+    .join-img {
+      height: 500px;
+      width: 100%;
+    }
+    .join-align {
+  display:flex;
+  flex-direction: column;
+  width: 50%;
+    }
+    .sub {
+      background-color: #b7b7a4;
+    }
+    .sub-text {
+      background-color: #b7b7a4;
+      float:right;
+      width: 50%;
+      font-weight: bolder;
+      font-size: larger;
+      text-align: center;
+      height: 317px;
+    }
+    .fa {
+      padding: 10px;
+      font-size: 30px;
+      width: 50px;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+    }
+    
+    
+    .fa:hover {
+      opacity: 0.7;
+    }
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+      /*margin-left: 479px;*/
+    }
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    .fa-instagram {
+      background: rgb(209, 48, 75);
+      color: white;
+    }
+    .fa-github {
+      background: rgb(33, 33, 33);
+      color: white;
+    }
+    footer {
+    overflow: hidden;
+      background-color: #6b705c;
+      width: 100%;
+    }
+    footer > a {
+        color: #f2f2f2;
+        text-decoration: none;
+    }
+    footer > a:hover {
+      background: #ffe8d6;
+      color: grey;
+    }
+   
+  .slideshow-container {
+    max-width: 700px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(66, 65, 65);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: #cb997e;
+  }
+  
+  .text {
+    color: #272922;
+    font-size: 17px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    text-align: center;
+    background-color: #ffe8d6;
+    opacity: 0.7;
+  }
+  
+  .numbertext {
+    color: rgb(65, 65, 65);
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #6b705c;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.6s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .story-img {
+    height: 400px;
+  }
+  .story {
+    background-color: #ddbea9;
+  }
+  .sub-vid {
+    display: flex;
+    flex-direction: column;
+  }
+  iframe {
+    width: 100%;
+  }
+  .bg-banner {
+    background-color: #b7b7a4;
+      opacity: 0.7;
+      padding: 12px;
+  }
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  #famrecipe {
+    width: 200px;
+  }
+  @media only screen and (min-width: 320px) and (max-width : 745px) {
+  .navbar {
+    position: static;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+  }
+  .navbar > a {
+    text-align: center;
+    display:block;
+    margin-left: 0%;
+  }
+  .dropbtn {
+    text-align: center;
+    display:block;
+    margin-left: 0%;
+  }
+  .header {
+   margin-top: 15px; 
+  }
+  .join-us {
+    display:block;
+    width:fit-content;
+    margin-bottom: 10px;
+  }
+  .join-align {
+    margin-top: 15px;
+    display: block;
+    width:fit-content;
+  }
+  .join-align > img {
+    height: 350px;
+  }
+  .sub-text {
+    display: block;
+    width:fit-content;
+  }
+  .sub-vid {
+    display: block;
+  }
+  .row {
+    flex-direction: column;
+  }
+  
+  }
+  @media only screen and (min-width: 746px) and (max-width: 950px) {
+  
+    .navbar {
+    display: inline-block;
+    text-align: center;
+    
+    }
+    .navbar > a {
+      display: inline;
+      text-align: center;
+    padding: 5px;
+    }
+    .column {
+      width: 33%;
+    }
+    footer > a{
+      align-content: center;
+    }
+    
+  
+  } 
+  @media only screen and (min-width: 951px) {
+    /*.navbar {
+      display: inline-block;
+      text-align: center;
+      
+      }
+      .navbar > a {
+        display: inline;
+        text-align: center;
+      padding: 5px;
+      }*/
+    }
+  
