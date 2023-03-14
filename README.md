@@ -62,7 +62,7 @@ chosen colour palette. The first slide shows a black and white female photograph
 
 * Knowing now the colours I wanted to produce, I used a [colour palette picker](https://coolors.co/palettes/palettes) for inspiration. I found a pink and grey palette that was very popular and chose it.
 
-![Image](images/colour-palette.png)
+![Image](docs/colour-palette.png)
 
 *Typography*
 
@@ -94,13 +94,13 @@ chosen colour palette. The first slide shows a black and white female photograph
 
  * I wanted to ensure the text did not get lost in the image so I added a slightly opacified background to the text alone. It makes the text more legible.
 
- ![Image](images/header.png)
+ ![Image](docs/header.png)
 
  **F03 Tagline**
 
  * The chosen tagline "Let's immortalize our mothers and fathers through food" sums up the tone and premise of the website. I think the use of a tagline will strengthen the client's memory of the brand itself.
 
- ![Image](images/tagline.png)
+ ![Image](docs/tagline.png)
 
  **F04 Recipe Links**
 
@@ -114,11 +114,11 @@ chosen colour palette. The first slide shows a black and white female photograph
 
  * I think the overall design of this section is simple yet extremely eye pleasing and effective.
 
- ![Image](images/recipe-links.png)
+ ![Image](docs/recipe-links.png)
 
  * When the user clicks the recipe image, they are directed to a new web page. These pages contain a brief historical background on the recipe, ingredients and instructions list too. The menu bar can take the user back to the main page with the Home button, and aswell as that jump to different parts of the recipe page.
 
- ![Image](images/ingredients-list.png)
+ ![Image](docs/ingredients-list.png)
 
  **F05 Slideshow**
 
@@ -132,7 +132,7 @@ chosen colour palette. The first slide shows a black and white female photograph
 
  * The slides arrow buttons contain an interactive element as they change colour when the mouse hovers over them.
 
- ![Image](images/slideshow.png)
+ ![Image](docs/slideshow.png)
 
  **F07 Join Form**
 
@@ -150,7 +150,7 @@ chosen colour palette. The first slide shows a black and white female photograph
 
  * When you press the submit button with your personal information, you are taken to a new thank you window, further emphasizing interaction.
 
- ![Image](images/thank-you.png)
+ ![Image](docs/thank-you.png)
 
  **F06 Embedded Video**
 
@@ -158,17 +158,17 @@ chosen colour palette. The first slide shows a black and white female photograph
 
  * The zig-zag layout is seen here again, with both media elements at opposing sides.
 
- ![Images](images/video.png)
+ ![Images](docs/video.png)
 
  **F07 Subscriber Form**
 
  * This submission form like the previous one, is interactive. When submitted, the client is taken to a new page confirming subscription.
 
- ![Image](images/congrats.png)
+ ![Image](docs/congrats.png)
 
  * The background color is a light-grey shade. The grey adds a more professional feeling to the site, contrasting with the emotive pinks, and coincides with the grey header and footer.
 
- ![Image](images/sub-form.png)
+ ![Image](docs/sub-form.png)
 
  **F08 Footer**
 
@@ -232,9 +232,9 @@ chosen colour palette. The first slide shows a black and white female photograph
 
 * [Techsini](https://techsini.com/multi-mockup/index.php) created the collage image of my website on multiple devices.
 
-*[W3Schools](https://www.w3schools.com/howto/howto_css_fixed_footer.asp) helped in making the footer fixed to the bottom of the page.
+* [W3Schools](https://www.w3schools.com/howto/howto_css_fixed_footer.asp) helped in making the footer fixed to the bottom of the page.
 
-*[W3Schools](https://www.w3schools.com/howto/howto_css_dropdown.asp#:~:text=Use%20any%20element%20to%20open%20the%20dropdown%20menu%2C,to%20position%20the%20dropdown%20menu%20correctly%20with%20CSS.) gave me an example of how to create a dropdown menu like the one I used in the menu bar.
+* [W3Schools](https://www.w3schools.com/howto/howto_css_dropdown.asp#:~:text=Use%20any%20element%20to%20open%20the%20dropdown%20menu%2C,to%20position%20the%20dropdown%20menu%20correctly%20with%20CSS.) gave me an example of how to create a dropdown menu like the one I used in the menu bar.
 
 * I used slack search to figure out why dragging and dropping my images into a folder was not working. I can upload them if I right click the folder instead.
 
@@ -256,15 +256,15 @@ Over the course of building this webpage, I have religiously checked how the web
 
 * Results for HTML
 
-![Image](/images/HTML-validator.png)
+![Image](docs/html-validator.png)
 
 * Results for CSS
 
-![Image](/images/css-validator.png)
+![Image](docs/css-validator.png)
 
 * Results for Web Accessibility Evaluation
 
-![Image](/images/wave.png)
+![Image](docs/wave.png)
 
 *Browser Compatibility*
 
