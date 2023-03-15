@@ -15,7 +15,7 @@
 
  This website contains all the bones of a classic web page, fixed menu bar, footer with social media links and an eye-catching hero image. Aside from the usual, it has a treasure of varying elements, from the image links to the details element underneath, the standard form, slideshow, and even an embedded video. It showcases an array of my talents and is also enjoyable for the user as it's easy to navigate and provides feedback throughout the website.
 
-![Image](/images/alldevices.png)
+![Image](assets/docs/all-devices.png)
 
  <a name="ux"></a>
 
@@ -47,11 +47,11 @@
 
 * Upon the advice of my mentor, I saved all of the images to my desktop and made a folder specifically to store them, just incase the website removes the images.
 
-* The large background image chosen for the header centers on a pretty-pink macaron wrapped in a bow. I chose this image because it is delicate and neat. The colours match that of the chosen colour palette. This is the first image the client sees upon opening the page, and highlights the fact that this a website centered around food.
+* The large background image chosen for the header centers on a pretty-pink macaron wrapped in a bow. I chose this image because it is delicate and neat. The colours match that of the chosen colour palette. This is the first image the client sees upon opening the page, and highlights the fact that this a website centered around food. On mpbile devices you can see the earthy green macaron in the chosen image. The green colour also coincides with the webpage.
 
 * For the recipe images, I needed to be sure they were relevant to the recipes but also high quality and enticing to the client. The mince image looks homely and rustic and I liked the flowers in the background as flowers are seen throughout the websites imagery. The tart image appears in the center column as its spiral design is captivating and the most interesting of the three. The plaid cloth reinforces that bucolic atmosphere I wanted. The final jam image has ribbons similar to the header image. The jars are dainty and cute, supporting the overall delicate mood. Although they differ, the recipe images collaborate effectively.
 
-* It was imperative that the slideshow images fortified the historical element of the website. I wanted old fashioned images, with a pink and grey tone to concur with the 
+* It was imperative that the slideshow images fortified the historical element of the website. I wanted old fashioned images, with a pink tone to concur with the 
 chosen colour palette. The first slide shows a black and white female photograph, tenderly covered by a pink rose. The image is relevant to the text and the theme. The second slide displays several black and white photographs, pink roses, pink macarons and a coffee cup sitting on a notepad. The photos are comparative to the first slide, and increase the old fashioned, historical vibe. The pink roses are also cohesive with the first slide and the pink macarons relate to the header. The coffee cup boosts the food aspect. The notepad relates to the documentation mentioned in the text. The final slide contains pink blossoms and a pocket watch that sits on an old ribbon-wrapped book. The blossoms fit beautifully with the previous florals seen in the site and the pocket watch is antiquated and historical. The book is old fashioned and sets forth the emphasis of ribbons as we have already seen.
 
 * The join us image is relative to the slideshow images as it contains the pink flowers and ancient photgraphs. The documents in the background of the image are superannuated, coinciding nicely with the previous images. 
@@ -62,7 +62,7 @@ chosen colour palette. The first slide shows a black and white female photograph
 
 * Knowing now the colours I wanted to produce, I used a [colour palette picker](https://coolors.co/palettes/palettes) for inspiration. I found a pink and green palette that was very popular and chose it.
 
-![Image](docs/colour-palette.png)
+![Image](assets/docs/colour-palette.png)
 
 *Typography*
 
@@ -86,39 +86,47 @@ chosen colour palette. The first slide shows a black and white female photograph
 
  * The navigation bar is immediately accessible upon landing on the page. The colours coincide with the colour palette throughout the website. It includes Home, Recipes, Our Story, Join Us, and Subscribe links that are also responsive, on small screens the links stack vertically. The menu has an interactive element as it changes colour when the mouse hovers over each link. It also has a fixed element on so it is always easily accessible to the client. 
 
- ![Image](images/navbar.png)
+ * I understood how imperative the menu is for users and that is why it was incorporated. It allows clients to navigate easily through the website.
+
+ * This same navigation bar is repeated throughout all of the embedded webpages, to ensure continuity.
+
+ ![Image](assets/docs/navbar.png)
 
  **F02 Header**
 
- * The header provides us with a delicate photograph of a macaron wrapped in pink ribbon. The colours of the image intertwine neatly with the websites overall palette. I also chose this image because it lets the client envision that the goal of the webiste is orientated to the food industry.
+ * The header provides us with a delicate photograph of a macaron wrapped in pink ribbon, the earthy green macaron underneath is only visible on mobile but alas it coincides with the chosen hues of the website.. The colours of the image intertwine neatly with the websites overall palette. I also chose this image because it lets the client envision that the goal of the webiste is orientated to the food industry.
 
  * I wanted to ensure the text did not get lost in the image so I added a slightly opacified background to the text alone. It makes the text more legible.
 
- ![Image](docs/header.png)
+ ![Image](assets/docs/header.png)
 
  **F03 Tagline**
 
  * The chosen tagline "Let's immortalize our mothers and fathers through food" sums up the tone and premise of the website. I think the use of a tagline will strengthen the client's memory of the brand itself.
 
- ![Image](docs/tagline.png)
+ ![Image](assets/docs/tagline.png)
 
  **F04 Recipe Links**
 
  * The latest recipes section appears above the fold, which is imperative to maintain the user's interest and ensure they keep scrolling. 
 
+ * I chose to add a recipe section because it is the most important premise of the website and what majority of clients will be interested in, hence why it is the first subsection under the hero image.
+
  * I decided on a triple column affect as it is eye pleasing for the user. It allows the server to showcase three varying recipes that give an indication of what the food section entails, that being various contrasting recipes.
 
  * This section contains a details element that when clicked, displays a short sentence on each dish. The details element is also interactive, changing colour when the user hovers over the title.
+
+ * On mobile the recipe links stack vertically instead, to ensure the details elements are not overlapping.
 
  * The background colour coincides with the soft, motherly-pink tone of the website.
 
  * I think the overall design of this section is simple yet extremely eye pleasing and effective.
 
- ![Image](docs/recipe-links.png)
+ ![Image](assets/docs/recipe-links.png)
 
- * When the user clicks the recipe image, they are directed to a new web page. These pages contain a brief historical background on the recipe, ingredients and instructions list too. The menu bar can take the user back to the main page with the Home button, and aswell as that jump to different parts of the recipe page.
+ * When the user clicks the recipe image, they are directed to a new web page. These pages contain a brief historical background on the recipe, ingredients and instructions list too. The menu and footer bars and identical to that of the homepage.
 
- ![Image](docs/ingredients-list.png)
+ ![Image](assets/docs/ingredients-list.png)
 
  **F05 Slideshow**
 
@@ -132,7 +140,7 @@ chosen colour palette. The first slide shows a black and white female photograph
 
  * The slides arrow buttons contain an interactive element as they change colour when the mouse hovers over them.
 
- ![Image](docs/slideshow.png)
+ ![Image](assets/docs/slideshow.png)
 
  **F07 Join Form**
 
@@ -146,11 +154,11 @@ chosen colour palette. The first slide shows a black and white female photograph
 
  * The image to the right of the form relates to the images used in the slideshow, ensuring cohesiveness.
 
- ![Image](images/join-form.png)
+ ![Image](assets/docs/join-form.png)
 
  * When you press the submit button with your personal information, you are taken to a new thank you window, further emphasizing interaction.
 
- ![Image](docs/thank-you.png)
+ ![Image](assets/docs/thank-you.png)
 
  **F06 Embedded Video**
 
@@ -158,17 +166,17 @@ chosen colour palette. The first slide shows a black and white female photograph
 
  * The zig-zag layout is seen here again, with both media elements at opposing sides.
 
- ![Images](docs/video.png)
+ ![Images](assets/docs/video.png)
 
  **F07 Subscriber Form**
 
  * This submission form like the previous one, is interactive. When submitted, the client is taken to a new page confirming subscription.
 
- ![Image](docs/congrats.png)
+ ![Image](assets/docs/congrats.png)
 
  * The background color is a light-grey shade. The grey adds a more professional feeling to the site, contrasting with the emotive pinks, and coincides with the grey header and footer.
 
- ![Image](docs/sub-form.png)
+ ![Image](assets/docs/sub-form.png)
 
  **F08 Footer**
 
@@ -180,7 +188,7 @@ chosen colour palette. The first slide shows a black and white female photograph
 
  * When the user hovers over the icons, they change colour, establishing interaction.
 
- ![Images](images/footer.png)
+ ![Images](assets/docs/footer.png)
 
 <a name="tech-used"></a>
 
@@ -234,6 +242,10 @@ chosen colour palette. The first slide shows a black and white female photograph
 
 * [W3Schools](https://www.w3schools.com/howto/howto_css_dropdown.asp#:~:text=Use%20any%20element%20to%20open%20the%20dropdown%20menu%2C,to%20position%20the%20dropdown%20menu%20correctly%20with%20CSS.) gave me an example of how to create a dropdown menu like the one I used in the menu bar.
 
+* [Github docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site) aided in creating the 404 error page.
+
+* [Favicon](https://favicon.io/tutorials/how-to-add-a-favicon-to-a-website-ico-format/) showed me how to create a small icon for the browser tab.
+
 * I used slack search to figure out why dragging and dropping my images into a folder was not working. I can upload them if I right click the folder instead.
 
 * I solved footer icon alignment issues with the code institute "footer styling" lesson.
@@ -254,15 +266,15 @@ Over the course of building this webpage, I have religiously checked how the web
 
 * Results for HTML
 
-![Image](docs/html-validator.png)
+![Image](assets/docs/html-validator.png)
 
 * Results for CSS
 
-![Image](docs/css-validator.png)
+![Image](assets/docs/css-validator.png)
 
 * Results for Web Accessibility Evaluation
 
-![Image](docs/wave.png)
+![Image](assets/docs/wave.png)
 
 *Browser Compatibility*
 
