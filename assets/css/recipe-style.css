@@ -69,29 +69,29 @@
   .dropdown:hover .dropbtn {background-color: rgb(59, 58, 58);}
   
   .header {
-      margin-top: 70px;
+      margin-top: 10px;
       text-align:center;
       padding: 9em 0 10em 0 ;
-      background-image: url(../images/soup-3347872__480.jpg);
+      background-image: url(../images/mince.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: bottom right;
       
   }
   .header2{
-    margin-top: 70px;
+    margin-top: 10px;
       text-align:center;
       padding: 9em 0 10em 0 ;
-    background-image: url(../images/pie-2314617__480.jpg);
+    background-image: url(../images/tart.jpg);
     background-repeat: no-repeat;
     background-size: cover;
       background-position: left center;
   }
   .header3 {
-    margin-top: 70px;
+    margin-top: 10px;
       text-align:center;
       padding: 9em 0 10em 0 ;
-      background-image: url(../images/jam-1106592__480.jpg);
+      background-image: url(../images/jam.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -121,21 +121,22 @@
         opacity: 0.7;
         padding: 5px;
     }
-  
     .fa {
       padding: 10px;
       font-size: 30px;
       width: 50px;
-      text-align: center;
       text-decoration: none;
     }
+    footer {
+      text-align: center;
+    }
+    
     .fa:hover {
       opacity: 0.7;
     }
     .fa-facebook {
       background: #3B5998;
       color: white;
-      margin-left: 480px;
     }
     .fa-twitter {
       background: #55ACEE;
@@ -151,7 +152,7 @@
     }
     footer {
     overflow: hidden;
-      background-color: #a5a58d;
+      background-color: #6b705c;
       width: 100%;
     }
     footer > a {
@@ -217,14 +218,29 @@
       font-size: large;
       padding-bottom: 30px;
     }
-    @media only screen and (min-width: 600px) {
-  
-      .navbar > a {
-      overflow: hidden;
-      padding: 5px 35px;
+    footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+    }
+    @media only screen and (min-width: 320px) and (max-width : 745px) {
+      .navbar {
+        position: static;
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 5px;
+        margin-bottom: 0px;
       }
-      footer > a{
-        align-content: center;
+      .navbar > a {
+        text-align: center;
+        display:block;
+        margin-left: 0%;
+      }
+      .dropbtn {
+        text-align: center;
+        display:block;
+        margin-left: 0%;
       }
     
     } 

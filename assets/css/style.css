@@ -72,7 +72,7 @@
       margin-top: 70px;
       text-align:center;
       padding: 9em 0 10em 0 ;
-      background-image: url(/images/macaron.jpg);
+      background-image: url(../images/macaron.jpg);
       background-repeat: no-repeat;
   }
   
@@ -237,7 +237,6 @@
     .fa-facebook {
       background: #3B5998;
       color: white;
-      /*margin-left: 479px;*/
     }
     .fa-twitter {
       background: #55ACEE;
@@ -369,6 +368,17 @@
   #famrecipe {
     width: 200px;
   }
+  /* 404 Page */
+
+.return-to-home a {
+  font-size: 2rem;
+  color: #000;
+}
+
+.return-to-home a:hover {
+  color: red;
+}
+
   @media only screen and (min-width: 320px) and (max-width : 745px) {
   .navbar {
     position: static;
@@ -412,6 +422,9 @@
   }
   .row {
     flex-direction: column;
+  }
+  .sub-text {
+    margin-bottom: 10px;
   }
   
   }
