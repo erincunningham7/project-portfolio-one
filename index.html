@@ -8,26 +8,35 @@
     <title>Granny's Pantry</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
 </head>
 
 <body>
     <main>
+        <!--header-->
         <header>
+            <!--menu bar-->
             <div class="navbar">
                 <a href="#home">Home</a>
+                <!--menu dropdown button-->
                 <div class="dropdown">
                     <button class="dropbtn">Recipes</button>
                     <div class="dropdown-content">
-                      <a href="recipe-one.html">Aunt Dee's Mince Recipe</a>
-                      <a href="recipe-two.html">Scandinavian Apple Tart</a>
-                      <a href="recipe-three.html">Strawberry Jam</a>
+                        <a href="recipe-one.html">Aunt Dee's Mince Recipe</a>
+                        <a href="recipe-two.html">Scandinavian Apple Tart</a>
+                        <a href="recipe-three.html">Strawberry Jam</a>
                     </div>
-                  </div>
+                </div>
                 <a href="#about">Our Story</a>
                 <a href="#join">Join Us</a>
                 <a href="#subscribe">Subscribe</a>
             </div>
+            <!--hero image and tagline-->
             <div class="header" id="home">
                 <div class="bg-banner">
                     <h1 class="header-text">Granny's Pantry</h1>
@@ -35,104 +44,100 @@
                 </div>
             </div>
         </header>
+        <!--recipe section-->
         <h2 id="recipes">Latest Recipes</h2>
         <div class="row">
-            <div class="column">
+            <div class="column">#
+                <!--image link-->
                 <a href="recipe-one.html">
-                <img src="images/soup-3347872__480.jpg" alt="mince dish"
-                    style="width:100%">
-                    </a>
-                    <details class="text-column">
-                        <summary>Aunt Dee's Mince</summary>
-                        <p>A hearty vegetable and mince dish originating from the south of Ireland during the mid 1900s.</p>
-                    </details>
+                    <img src="assets/images/mince.jpg" alt="mince dish" style="width:100%">
+                </a>
+                <!--hidden details element-->
+                <details class="text-column">
+                    <summary>Aunt Dee's Mince</summary>
+                    <p>A hearty vegetable and mince dish originating from the south of Ireland during the mid 1900s.</p>
+                </details>
             </div>
             <div class="column">
+                <!--image link-->
                 <a href="recipe-two.html">
-                <img src="images/pie-2314617__480.jpg" alt="apple tart"
-                    style="width:100%">
-                    </a>
-                    <details class="text-column">
-                        <summary>Scandinavian Apple Tart</summary>
-                        <p>An elegant Autumn dessert based on an authentic 16th century family recipe.</p>
-                    </details>
+                    <img src="assets/images/tart.jpg" alt="apple tart" style="width:100%">
+                </a>
+                <!--hidden details element-->
+                <details class="text-column">
+                    <summary>Scandinavian Apple Tart</summary>
+                    <p>An elegant Autumn dessert based on an authentic 16th century family recipe.</p>
+                </details>
             </div>
             <div class="column">
+                <!--image link-->
                 <a href="recipe-three.html">
-                <img src="images/jam-1106592__480.jpg" alt="jam jars"
-                    style="width:100%">
-                    </a>
-                    <details class="text-column">
-                        <summary>Strawberry Jam</summary>
-                        <p>This simple two ingredient recipe, ideal for gift hampers, dates back to 19th century England.</p>
-                    </details>
+                    <img src="assets/images/jam.jpg" alt="jam jars" style="width:100%">
+                </a>
+                <!--hidden details element-->
+                <details class="text-column">
+                    <summary>Strawberry Jam</summary>
+                    <p>This simple two ingredient recipe, ideal for gift hampers, dates back to 19th century England.
+                    </p>
+                </details>
             </div>
         </div>
-        <!--div class="text-row">
-            <details class="text-column">
-                <summary>Aunt Dee's Mince</summary>
-                <p>A hearty vegetable and mince dish originating from the south of Ireland during the mid 1900s.</p>
-            </details>
-            <details class="text-column">
-                <summary>Scandinavian Apple Tart</summary>
-                <p>An elegant Autumn dessert based on an authentic 16th century family recipe.</p>
-            </details>
-            <details class="text-column">
-                <summary>Strawberry Jam</summary>
-                <p>This simple two ingredient recipe, ideal for gift hampers, dates back to 19th century England.</p>
-            </details>
-        </div-->
+        <!--our story sectio -->
         <h2 class="about" id="about">Our Story</h2>
-
+        <!--slideshow-->
         <div class="story">
             <div class="slideshow-container">
-
+                <!--first slide-->
                 <div class="mySlides fade">
                     <div class="numbertext">1 / 3</div>
-                    <img src="images/postcard-1242616_1280.jpg"
-                        alt="old photograph of woman and a pink rose" style="width:100%" class="story-img">
+                    <img src="assets/images/postcard.jpg" alt="old photograph of woman and a pink rose"
+                        style="width:100%" class="story-img">
                     <div class="text">This blog was created in dedication to my great-grandmother Mary Hall. Born in the
                         west of Ireland in 1852 she married young and had a wealth of children.</div>
 
                 </div>
-
+                <!--second slide-->
                 <div class="mySlides fade">
                     <div class="numbertext">2 / 3</div>
-                    <img src="images/roses-4058079__480.jpg" alt="notebook surrounded by old photgraphs and pink roses, and a small cup of coffee on top of the notebook" style="width:100%"
-                        class="story-img">
+                    <img src="assets/images/coffee.jpg"
+                        alt="notebook surrounded by old photgraphs and pink roses, and a small cup of coffee on top of the notebook"
+                        style="width:100%" class="story-img">
                     <div class="text">Her avid skill for baking was documented in her brown leather notebook, containing
                         an assortment of recipes. Mary's work was preserved through the generations and eventually made
                         it's way into my hands. I enjoyed baking her recipes but it wasn't enough. I knew I had to
                         honour my lineage and share these ancient food traditions with the world.</div>
                 </div>
-
+                <!--third slide-->
                 <div class="mySlides fade">
                     <div class="numbertext">3 / 3</div>
-                    <img src="images/books-2385409_1280.jpg" alt="black pocketwatch surrounded by pink roses, resting on an old cloth-covered book" style="width:100%"
-                        class="story-img">
+                    <img src="assets/images/watch.jpg"
+                        alt="black pocketwatch surrounded by pink roses, resting on an old cloth-covered book"
+                        style="width:100%" class="story-img">
                     <div class="text">Family recipes bridge the generations together, connecting us to our ancestors. In
                         the words of novelist Laurie Colwin, 'No one who cooks, cooks alone. A cook in the kitchen is
                         surrounded by generations of cooks past'.</div>
                 </div>
 
-        
+
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
             <br>
 
-    
+
             <div style="text-align:center">
                 <span class="dot" onclick="currentSlide(1)"></span>
                 <span class="dot" onclick="currentSlide(2)"></span>
                 <span class="dot" onclick="currentSlide(3)"></span>
             </div>
         </div>
+        <!--join us section-->
         <h2 class="join" id="join">Join Us</h2>
         <div class="join-us">
             <p>Create your own legacies! Become a member of Granny's Pantry today, immortalize your mother and father
                 and share your families traditional recipes with the world. Simply fill in the form below and we will be
                 in touch within 24 hours.<p>
+                    <!--submit family recipe form-->
                     <form action="thank-you.html" method="get">
                         <label for="fname">First name:</label><br>
                         <input type="text" id="fname" name="fname" required><br>
@@ -144,36 +149,40 @@
                         <textarea id="famrecipe" name="famrecipe" rows="7" required></textarea><br>
                         <input type="submit" value="Send Request">
                     </form>
-                
+
         </div>
         <div class="join-align">
-        <img src="images/nostalgia-5106057__480.jpg"
-            alt="old photographs, old documents and roses" class="join-img">
-            </div>
+            <img src="assets/images/photographs.jpg" alt="old photographs, old documents and roses" class="join-img">
+        </div>
+        <!--subscribe section-->
         <h2 class="sub" id="subscribe">Subscribe</h2>
         <div class="sub-text">
             <p>Why not get inspired and check out our subscribers video and create it with your family tonight!</p>
             <p>If you would like to recieve notifications when we upload new recipes and have access to subscriber-only
                 dishes, sign up for our free weekly newsletter below.</p>
-                <form action="congrats.html" method="get">
-            <label for="sub-email">Email:</label>
-            <input type="email" id="sub-email" name="email" required>
-            <input type="submit" value="submit">
+            <!--subscribe form-->
+            <form action="congrats.html" method="get">
+                <label for="sub-email">Email:</label>
+                <input type="email" id="sub-email" name="email" required>
+                <input type="submit" value="submit">
             </form>
         </div>
+        <!--video-->
         <div class="sub-vid">
-            <iframe height="315" src="https://www.youtube.com/embed/k51ppj69uAQ"
-                title="YouTube video player"
+            <iframe height="315" src="https://www.youtube.com/embed/k51ppj69uAQ" title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </div>
+        <!--footer-->
         <footer>
-            <a href="#" class="fa fa-facebook" aria-label="Facebook opens in new tab"></a>
-            <a href="#" class="fa fa-twitter" aria-label="Twitter opens in new tab"></a>
-            <a href="#" class="fa fa-instagram" aria-label="Instagram opens in new tab"></a>
-            <a href="#" class="fa fa-github" aria-label="Github opens in new tab"></a>
+            <a href="https://en-gb.facebook.com/" class="fa fa-facebook" aria-label="Facebook opens in new tab"></a>
+            <a href="https://twitter.com/" class="fa fa-twitter" aria-label="Twitter opens in new tab"></a>
+            <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"
+                aria-label="Instagram opens in new tab"></a>
+            <a href="https://github.com/" class="fa fa-github" aria-label="Github opens in new tab"></a>
         </footer>
-        <script src="scripts/main.js"></script>
+        <!--js link-->
+        <script src="assets/javascript/main.js"></script>
     </main>
 </body>
 
