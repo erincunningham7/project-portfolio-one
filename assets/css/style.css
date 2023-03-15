@@ -75,6 +75,7 @@
       background-image: url(../images/macaron.jpg);
       background-size: cover;
       background-repeat: no-repeat;
+
   }
   
   body {
@@ -426,6 +427,9 @@
   }
   .sub-text {
     margin-bottom: 10px;
+  }
+  .header {
+    background-position: top;
   }
   
   }
