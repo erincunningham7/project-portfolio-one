@@ -411,9 +411,13 @@ Steps to test:
 * Scroll down to the Join Us section or use the "Join Us" button on the menu bar.
 
 * Input the following into the form:
+
 First Name: John
+
 Last Name: Doe
+
 Email: john.doe@test.com
+
 Comment: This is a test.
 
 * Click submit.
@@ -437,9 +441,13 @@ Steps to test:
 * Scroll down to the Join Us section or use the "Join Us" button on the menu bar.
 
 * Input the following into the form:
+
 First Name:
+
 Last Name: Doe
+
 Email: john.doe@test.com
+
 Comment: This is a test.
 
 * Click submit.
@@ -461,9 +469,13 @@ Steps to test:
 * Scroll down to the Join Us section or use the "Join Us" button on the menu bar.
 
 * Input the following into the form:
+
 First Name: John
+
 Last Name: 
+
 Email: john.doe@test.com
+
 Comment: This is a test.
 
 * Click submit.
@@ -485,9 +497,13 @@ Steps to test:
 * Scroll down to the Join Us section or use the "Join Us" button on the menu bar.
 
 * Input the following into the form:
+
 First Name: John
+
 Last Name: Doe
-Email: 
+
+Email:
+
 Comment: This is a test.
 
 * Click submit.
@@ -509,9 +525,13 @@ Steps to test:
 * Scroll down to the Join Us section or use the "Join Us" button on the menu bar.
 
 * Input the following into the form:
+
 First Name: John
+
 Last Name: Doe
+
 Email: john.doe.test.com
+
 Comment: This is a test.
 
 * Click submit.
@@ -544,6 +564,7 @@ Actual:
 
 * Website behaved as expected, the message was displayed and the form did not submit.
 
+
 * The second form tested was the subscribe form to ensure it worked as expected when both the correct and incorrect data was inputted.
 
 1. Scenario One - Correct Input
@@ -555,6 +576,7 @@ Steps to test:
 * Scroll down to the Subscribe section or use the "Subscribe" button on the menu bar.
 
 * Input the following into the form:
+
 john.doe@test.com
 
 * Click submit.
@@ -578,6 +600,7 @@ Steps to test:
 * Scroll down to the Subscribe section or use the "Subscribe" button on the menu bar.
 
 * Input the following into the form:
+
 john.doe.test.com
 
 * Click submit.
