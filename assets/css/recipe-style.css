@@ -69,7 +69,7 @@
   .dropdown:hover .dropbtn {background-color: rgb(59, 58, 58);}
   
   .header {
-      margin-top: 10px;
+      margin-top: 70px;
       text-align:center;
       padding: 9em 0 10em 0 ;
       background-image: url(../images/mince.jpg);
@@ -79,7 +79,7 @@
       
   }
   .header2{
-    margin-top: 10px;
+    margin-top: 70px;
       text-align:center;
       padding: 9em 0 10em 0 ;
     background-image: url(../images/tart.jpg);
@@ -88,7 +88,7 @@
       background-position: left center;
   }
   .header3 {
-    margin-top: 10px;
+    margin-top: 70px;
       text-align:center;
       padding: 9em 0 10em 0 ;
       background-image: url(../images/jam.jpg);
