@@ -628,11 +628,13 @@ Actual:
 
  * The following git commands were utilised regularly throughout development to push code to the remote repository:
 
-1. git add <filename> - This command was used to add the files to the staging area before they are committed.
+1. git status - This command displayed the modified files that needed to be pushed to the remote repository.
 
-2. git commit -m “commit message” - This command was utilised to commit changes to the local repository queue ready for the final step.
+2. git add <filename> - This command was used to add the files to the staging area before they are committed.
 
-3. git push - This command was applied to push all committed code to the remote repository on github.
+3. git commit -m “commit message” - This command was utilised to commit changes to the local repository queue ready for the final step.
+
+4. git push - This command was applied to push all committed code to the remote repository on github.
 
  *The site was deployed to GitHub pages. The following steps guide us through that process*
 
