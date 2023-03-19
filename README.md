@@ -47,9 +47,23 @@
 
 * Upon the advice of my mentor, I saved all of the images to my desktop and made a folder specifically to store them, just incase the website removes the images.
 
-* The large background image chosen for the header centers on a pretty-pink macaron wrapped in a bow. I chose this image because it is delicate and neat. The colours match that of the chosen colour palette. This is the first image the client sees upon opening the page, and highlights the fact that this a website centered around food. On mpbile devices you can see the earthy green macaron in the chosen image. The green colour also coincides with the webpage.
+* The large background image chosen for the header centers on a pretty-pink macaron wrapped in a bow. I chose this image because it is delicate and neat. The colours match that of the chosen colour palette. This is the first image the client sees upon opening the page, and highlights the fact that this a website centered around food. On mobile devices you can see the earthy green macaron in the chosen image. The green colour also coincides with the webpage.
 
-* For the recipe images, I needed to be sure they were relevant to the recipes but also high quality and enticing to the client. The mince image looks homely and rustic and I liked the flowers in the background as flowers are seen throughout the websites imagery. The tart image appears in the center column as its spiral design is captivating and the most interesting of the three. The plaid cloth reinforces that bucolic atmosphere I wanted. The final jam image has ribbons similar to the header image. The jars are dainty and cute, supporting the overall delicate mood. Although they differ, the recipe images collaborate effectively.
+![Image](assets/docs/macaron-original.png)
+
+* For the recipe images, I needed to be sure they were relevant to the recipes but also high quality and enticing to the client. 
+
+* The mince image looks homely and rustic and I liked the flowers in the background as flowers are seen throughout the websites imagery. 
+
+![Image](assets/docs/mince-original.png)
+
+* The tart image appears in the center column as its spiral design is captivating and the most interesting of the three. The plaid cloth reinforces that bucolic atmosphere I wanted. The final jam image has ribbons similar to the header image.
+
+![Image](assets/docs/tart-original.png)
+
+* The jars are dainty and cute, supporting the overall delicate mood. Although they differ, the recipe images collaborate effectively.
+
+![Image](assets/docs/jam-original.png)
 
 * It was imperative that the slideshow images fortified the historical element of the website. I wanted old fashioned images, with a pink tone to concur with the 
 chosen colour palette. The first slide shows a black and white female photograph, tenderly covered by a pink rose. The image is relevant to the text and the theme. The second slide displays several black and white photographs, pink roses, pink macarons and a coffee cup sitting on a notepad. The photos are comparative to the first slide, and increase the old fashioned, historical vibe. The pink roses are also cohesive with the first slide and the pink macarons relate to the header. The coffee cup boosts the food aspect. The notepad relates to the documentation mentioned in the text. The final slide contains pink blossoms and a pocket watch that sits on an old ribbon-wrapped book. The blossoms fit beautifully with the previous florals seen in the site and the pocket watch is antiquated and historical. The book is old fashioned and sets forth the emphasis of ribbons as we have already seen.
@@ -118,11 +132,13 @@ chosen colour palette. The first slide shows a black and white female photograph
 
  * On mobile the recipe links stack vertically instead, to ensure the details elements are not overlapping.
 
+ ![Image](assets/docs/stacked-recipes.png)
+
  * The background colour coincides with the soft, motherly-pink tone of the website.
 
  * I think the overall design of this section is simple yet extremely eye pleasing and effective.
 
- ![Image](assets/docs/recipe-links.png)
+ ![Image](assets/docs/recipe-list.png)
 
  * When the user clicks the recipe image, they are directed to a new web page. These pages contain a brief historical background on the recipe, ingredients and instructions list too. The menu and footer bars and identical to that of the homepage.
 
@@ -154,6 +170,8 @@ chosen colour palette. The first slide shows a black and white female photograph
 
  * The image to the right of the form relates to the images used in the slideshow, ensuring cohesiveness.
 
+ * The join form allows the users to share their recipes and become an integral part of the website.
+
  ![Image](assets/docs/join-form.png)
 
  * When you press the submit button with your personal information, you are taken to a new thank you window, further emphasizing interaction.
@@ -166,6 +184,8 @@ chosen colour palette. The first slide shows a black and white female photograph
 
  * The zig-zag layout is seen here again, with both media elements at opposing sides.
 
+ * The video does not play automatically, but can be viewed and paused in the webpage. It consists of an old fashioned Ukranian recipe.
+
  ![Images](assets/docs/video.png)
 
  **F07 Subscriber Form**
@@ -174,13 +194,15 @@ chosen colour palette. The first slide shows a black and white female photograph
 
  ![Image](assets/docs/congrats.png)
 
- * The background color is a light-grey shade. The grey adds a more professional feeling to the site, contrasting with the emotive pinks, and coincides with the grey header and footer.
+ * The background color is a light-grey shade. The grey adds a more professional feeling to the site, contrasting with the emotive pinks, and coincides with the header and footer.
 
  ![Image](assets/docs/sub-form.png)
 
+ * The subscriber form allows users to recieve email notifications when new recipes are uploaded and access subscriber-only recipes.
+
  **F08 Footer**
 
- * The footer is the same shade of grey as the header, guaranteeing a congruous layout.
+ * The footer is the same shade of green as the header, guaranteeing a congruous layout.
 
  * I decided the use of familiar social media icons was a better option than text. They are a common visual language, improve visual interest and provide functionality and feedback.
 
@@ -189,6 +211,27 @@ chosen colour palette. The first slide shows a black and white female photograph
  * When the user hovers over the icons, they change colour, establishing interaction.
 
  ![Images](assets/docs/footer.png)
+
+ * When you click on the icons, you are taken to the homepage of each respected website.
+
+
+**F09 Error 404 Page**
+
+* The error 404 page was added just incase any links and/or pages are broken on the site.
+
+* It has a button that gives the user the option to return to the homepage.
+
+![Image](assets/docs/404error.png)
+
+**F10 Favicon Icon**
+
+* I decided to add a favicon icon that contains the "GP" that stands for Granny's Pantry.
+
+* The colours of the icon coincide with the website's colour palette.
+
+* I wanted to add the icon because it helps the user identify the web page more easily in the browser tab. It is important for brand recognition.
+
+![Image](assets/docs/favicon.png)
 
 <a name="tech-used"></a>
 
@@ -260,9 +303,7 @@ chosen colour palette. The first slide shows a black and white female photograph
 
 I feel as though I have conducted all of the necessary tests to ensure my website works well. All features mentioned work on various screen sizes, and continuously work as intended to. The five linked web pages have caused errors during the creative process, yet these errors have been eradicated and work smoothly ever since. 
 
-Over the course of building this webpage, I have religiously checked how the website looks on my iPhone, Samsung tablet and Lenovo laptop. I have tweaked the responsiveness declarations countless times. On iPhone I came to the conclusion that the menu bar displayed better vertically stacked and therfore not at a fixed position, as it would take up half the screen height. I also decided to change the zig-zag pattern of the two final subsections. It looked too cramped and the images became distorted and hard to decipher, along with the forms overlapping their neighbouring elements. I changed them to a simple block display instead. The grey colours chosen for the website have a hint of green on iPhone but alas it does not take away from the overall visùal effect. I did not have any major problems with the tablet responsiveness, just had to make sure the recipe images aligned nicely in their columns and the menu and footer elements displayed neatly.
-
-*Validator Testing*
+**Validator Testing**
 
 * Results for HTML
 
@@ -272,11 +313,7 @@ Over the course of building this webpage, I have religiously checked how the web
 
 ![Image](assets/docs/css-validator.png)
 
-* Results for Web Accessibility Evaluation
-
-![Image](assets/docs/wave.png)
-
-*Browser Compatibility*
+**Browser Compatibility**
 
  * Testing has been carried out on the following browsers:
  1. Chrome Version 110.0.5481.178 (Official Build) (64-bit)
@@ -284,13 +321,318 @@ Over the course of building this webpage, I have religiously checked how the web
  3. Safari on iOS Version 16.3
  4. Microsoft Edge Version 110.0.1587.63 (Official build) (64-bit)
 
- *Unfixed Bugs*
+ **Responsiveness Testing**
 
- The forms included in the website, direct the client to a new webpage. The menu bar is the same as the main webpage. Only the home button works, as I couldn't figure out how to direct the buttons to a certain part of a separate webpage. I tried w3Schools, mozilla and just googling the issue itself but to no avail.
+Over the course of building this webpage, I have religiously checked how the website looks on my iPhone, Samsung tablet and Lenovo laptop. I have tweaked the responsiveness declarations countless times. On iPhone I came to the conclusion that the menu bar displayed better vertically stacked and therfore not at a fixed position, as it would take up half the screen height. I also decided to change the zig-zag pattern of the two final subsections. It looked too cramped and the images became distorted and hard to decipher, along with the forms overlapping their neighbouring elements. I changed them to a simple block display instead. The grey colours chosen for the website have a hint of green on iPhone but alas it does not take away from the overall visùal effect. I did not have any major problems with the tablet responsiveness, just had to make sure the recipe images aligned nicely in their columns and the menu and footer elements displayed neatly.
+
+
+1. Open browser and navigate to Granny's Pantry.
+2. Open the developer tools (right click and inspect).
+3. Set to responsive and decrease width to 320px
+4. Set the zoom to 60%
+5. Click and drag the responsive window to maximum width
+
+Expected:
+
+Website is responsive on every varying screen size. The images are not overlapping the text. The images are not pixelated.
+
+Actual:
+
+Website behaved as expected.
+
+**Accessibility Testing**
+
+Wave Accessibility was recommended to me by mentor.
+
+Testing was centered around the following:
+
+* The website contains no contrast errors that may affect visually impaired users.
+
+* The website's forms have aria-labels and/or labels to be read by screen readers for interface elements.
+
+* All images have alternate text to present the content of an image to screen reader users.
+
+* All icons with links attached have alternate text to present the purpose of the icons to screen reader users.
+
+* The language of the page has been identified.
+
+* Heading levels are used appropriately.
+
+Accessibility Issues:
+
+1. Contrast errors occcured in the navbar element, so I had to change the text colour and the background colour.
+
+2. A label was not implemented for the last textarea element in the join us form. It was quickly added and the issue was rendered.
+
+* Results for Web Accessibility Evaluation
+
+![Image](assets/docs/wave.png)
+
+**Functional Testing**
+
+*Navigation Links*
+
+* Testing was executed to ensure all navigation links performed their given task and took users to the correct part of the webpage or to the correct page in a new browser tab. I tested this by clicking on each link.
+
+| Navigation Link |  Page To Load/Section To Jump To |
+|:----------------|:--------------------------------:|
+| Home             | Hero Image |
+| Recipes: Aunt Dee's Mince Recipe |  recipe-one.html     |
+| Recipes: Scandinavian Apple Tart | recipe-two.html    |
+| Recipes: Strawberry Jam | recipe-three.html |
+| Our Story | Our Story slideshow |
+| Join Us | Join Us form section |
+| Subscribe | Subscribe form section |
+
+* All links worked as intended.
+
+*Recipe Links*
+
+* Testing was performed on the recipe images to ensure when clicked they took the user to the correct page. This was done by clicking on the images.
+
+| Image Link |  Page To Load |
+|:-----------|:-------------:|
+| Aunt Dee's Mince Image | recipe-one.html |
+| Scandinavian Apple Tart | recipe-two.html |
+| Strawberry Jam | recipe-three.html |
+
+* All image links worked correctly.
+
+*Forms*
+ 
+* The first form tested was the Join Us form. I needed to be sure the form took the user to a new page when inputted correctly and the submit button would not work when the form was inputted incorrectly.
+
+1. Scenario One - Correct Input
+
+Steps to test:
+
+* Navigate to Granny's Pantry Homepage.
+
+* Scroll down to the Join Us section or use the "Join Us" button on the menu bar.
+
+* Input the following into the form:
+First Name: John
+Last Name: Doe
+Email: john.doe@test.com
+Comment: This is a test.
+
+* Click submit.
+
+* User should be redirected to thank-you.html webpage.
+
+Expected:
+
+Form submits with no errors and user is redirected to thank-you.html page.
+
+Actual:
+
+* Website behaved as expected with no errors and redirected to thank-you.html.
+
+2. Scenario Two - Missing Required Field First Name
+
+Steps to test:
+
+* Navigate to Granny's Pantry Homepage.
+
+* Scroll down to the Join Us section or use the "Join Us" button on the menu bar.
+
+* Input the following into the form:
+First Name:
+Last Name: Doe
+Email: john.doe@test.com
+Comment: This is a test.
+
+* Click submit.
+
+Expected:
+
+* The form does not submit and 'Please fill out this field' appears under the First Name: input.
+
+Actual:
+
+* Website behaved as expected, the message was displayed and the form did not submit.
+
+3. Scenario Three - Missing Required Field Last Name
+
+Steps to test:
+
+* Navigate to Granny's Pantry Homepage.
+
+* Scroll down to the Join Us section or use the "Join Us" button on the menu bar.
+
+* Input the following into the form:
+First Name: John
+Last Name: 
+Email: john.doe@test.com
+Comment: This is a test.
+
+* Click submit.
+
+Expected:
+
+* The form does not submit and 'Please fill out this field' appears under the Last Name: input.
+
+Actual:
+
+* Website behaved as expected, the message was displayed and the form did not submit.
+
+4. Scenario Four - Missing Required Field Email 
+
+Steps to test:
+
+* Navigate to Granny's Pantry Homepage.
+
+* Scroll down to the Join Us section or use the "Join Us" button on the menu bar.
+
+* Input the following into the form:
+First Name: John
+Last Name: Doe
+Email: 
+Comment: This is a test.
+
+* Click submit.
+
+Expected:
+
+* The form does not submit and 'Please fill out this field' appears under the Email: input.
+
+Actual:
+
+* Website behaved as expected, the message was displayed and the form did not submit.
+
+5. Scenario Five - Incorrect Email Format
+
+Steps to test:
+
+* Navigate to Granny's Pantry Homepage.
+
+* Scroll down to the Join Us section or use the "Join Us" button on the menu bar.
+
+* Input the following into the form:
+First Name: John
+Last Name: Doe
+Email: john.doe.test.com
+Comment: This is a test.
+
+* Click submit.
+
+Expected:
+
+* The form does not submit and 'Please include an @ in the email address' appears under the Email: input.
+
+Actual:
+
+* Website behaved as expected, the message was displayed and the form did not submit.
+
+6. Scenario Six - No Inputs Enterred
+
+Steps to test:
+
+* Navigate to Granny's Pantry Homepage.
+
+* Scroll down to the Join Us section or use the "Join Us" button on the menu bar.
+
+* Input nothing into the form.
+
+* Click submit.
+
+Expected:
+
+* The form does not submit and 'Please fill out this field' appears.
+
+Actual:
+
+* Website behaved as expected, the message was displayed and the form did not submit.
+
+* The second form tested was the subscribe form to ensure it worked as expected when both the correct and incorrect data was inputted.
+
+1. Scenario One - Correct Input
+
+Steps to test:
+
+* Navigate to Granny's Pantry Homepage.
+
+* Scroll down to the Subscribe section or use the "Subscribe" button on the menu bar.
+
+* Input the following into the form:
+john.doe@test.com
+
+* Click submit.
+
+* User should be redirected to the congrats.html webpage.
+
+Expected:
+
+Form submits with no errors and user is redirected to the congrats.html page.
+
+Actual:
+
+* Website behaved as expected with no errors and redirected to congrats.html.
+
+2. Scenario Two - Incorrect Input 
+
+Steps to test:
+
+* Navigate to Granny's Pantry Homepage.
+
+* Scroll down to the Subscribe section or use the "Subscribe" button on the menu bar.
+
+* Input the following into the form:
+john.doe.test.com
+
+* Click submit.
+
+Expected:
+
+* The form does not submit and 'Please include an @ in the email address' appears.
+
+Actual:
+
+* Website behaved as expected, the message was displayed and the form did not submit.
+
+6. Scenario Three - No Inputs Enterred
+
+Steps to test:
+
+* Navigate to Granny's Pantry Homepage.
+
+* Scroll down to the Subscribe section or use the "Subscribe" button on the menu bar.
+
+* Input nothing into the form.
+
+* Click submit.
+
+Expected:
+
+* The form does not submit and 'Please fill out this field' appears.
+
+Actual:
+
+* Website behaved as expected, the message was displayed and the form did not submit.
+
+*Footer Social Media Links*
+
+* Testing was performed on the Font Awesome Social Media icons in the footer to be sure that each one opened in a new tab and that they had a hover affect of the pink and green branding color.
+
+* Each icon opened in a new tab when clicked as expected and the correct hover color was present.
+
+ *Unfixed Bugs*
 
  <a name="deployment"></a>
 
  ## Deployment
+
+ *Version Control*
+
+ * The site was created using the Gitpod editor and pushed to github to the remote repository 'project-portfolio-one'.
+
+ * The following git commands were utilised regularly throughout development to push code to the remote repository:
+
+1. git add <filename> - This command was used to add the files to the staging area before they are committed.
+
+2. git commit -m “commit message” - This command was utilised to commit changes to the local repository queue ready for the final step.
+
+3. git push - This command was applied to push all committed code to the remote repository on github.
 
  *The site was deployed to GitHub pages. The following steps guide us through that process*
 
@@ -303,6 +645,20 @@ Over the course of building this webpage, I have religiously checked how the web
  4. The page will automatically update and display "Your site is live at ..."  and from there you can click Visit Site to see your finsihed product!
 
  [The live link can be found here](https://erincunningham7.github.io/project-portfolio-one/)
+
+*Clone The Repository Locally*
+
+1. In the GitHub repository you want to clone locally, find the 'Code' tab and click on it.
+
+2. Click on HTTPS.
+
+3. Copy the repository link to the clipboard.
+
+4. Open your IDE of choice.
+
+5. Type git clone copied-git-url into the IDE terminal.
+
+6. The project will successfully be cloned on your local machine for use.
 
  ## Acknowledgements
 
